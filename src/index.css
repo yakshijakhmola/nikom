@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
+}
+ul li,
+ol li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: var(--light-font);
+}
+p{
+    font-family: var(--light-font);
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
+}
+h5{
+    font-size: 20px;
+}
+@media(max-width: 560px){
+    h1{
+        font-size: 25px;
+    }
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--bold-font);
+    font-weight: 700;
+    margin: 0;
+    color: var(--black);
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+:root{
+    --darkred: #FD3737;
+    --lightred: #FFF7F7;
+    --light-gray: #1e1f1f;
+    --gradient-red: linear-gradient(to bottom right, var(var(--darkred)), #ff5e68);
+    --white: #FFFFFF;
+    --light-white: #F5F5F5;
+    --white-para-color: #f9fafb;
+    --black: #000000;
+    --bold-font: "Poppins", sans-serif;
+    --light-font: "Roboto", sans-serif;
+    --dark-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --light-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    --transition: 0.5s all ease;
+}
+
+.dark-btn{
+    background: var(--darkred);
+    border-radius: 60px;
+    color: var(--white);
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    position: relative;
+    transition: var(--transition);
+    font-size: 17px;
+}
+.dark-btn:hover{
+    color: var(--white);
+    transform: translateY(-5px);
+}
+.dark-btn .circle{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--darkred);
+    border-radius: 50%;
+    background: var(--white);
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 7px;
+    padding: 6px;
+}
+.dark-btn .circle i{
+    font-size: 12px;
+}
+.parasize{
+    font-size: 17px;
+}
+.leadership-li{
+    position: relative;
+    margin: 10px 0;
+}
+.leadership-li::after {
+    content: '\f058';
+    position: absolute;
+    top: 2px;
+    left: 0;
+    color: var(--darkred);
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 14px;
+}
+.team-content{
+    position: relative;
+}
+.team-content::after{
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 7px;
+    height: 40px;
+    background: var(--darkred);
+}
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline-element-content { 
+        padding: 0 !important; 
+    }
+}
+@media only screen and (max-width: 992px) {
+    .vertical-timeline-element-date{
+       display: none!important;
+    }
+}
+
+.vertical-timeline-element-subtitle{
+    background: var(--darkred);
+    color: var(--white);
+    padding: 0 30px;
+    border-radius: 8px 8px 0 0;
+}
+.vertical-timeline-element-content{
+    background: transparent !important;
+    border: 1px solid var(--darkred);
+    border-radius: 8px !important;
+    padding: 0 !important;
+}
+.vertical-timeline-element-content p{
+    background: var(--white);
+    padding: 30px 20px;
+    margin: 0 !important;
+    border-radius: 0 0 8px 8px;
+}
+.vertical-timeline-element-content-arrow{
+    border-right: 7px solid var(--darkred) !important;
+}
+@layer base{
+    .centerheading{
+        @apply font-bold-font font-bold xl:text-4xl text-2xl text-center mb-7 mt-3
+    }
+    .leftheading{
+        @apply font-bold-font font-bold text-2xl
+    }
+    .rightheading{
+        @apply font-bold-font font-bold text-2xl
+    }
+    .paracolor{
+        @apply font-light-font text-parasize text-['#747474']
+    }
+    .lightparacolor{
+        @apply font-light-font text-lg text-slate-50
+    }
+    .footerhead{
+        @apply text-white font-bold mb-5
+    }
+    .footerpara{
+        @apply text-slate-50 text-parasize text-justify leading-6
+    }
+    .footera{
+        @apply text-parasize text-slate-50 pb-2 hover:text-darkred block transition-all duration-500 ease-linear hover:tracking-wider
+    }
+    .redbtn{
+        @apply text-darkred flex items-center gap-x-3 font-bold
+    }
+    .section{
+        @apply py-16 px-5
+    }
+    .pt{
+        @apply pt-16
+    }
+    .pb{
+        @apply pb-16
+    }
+    .servicerightsidebarbox{
+        @apply flex items-center justify-between bg-white  h-16 px-2 my-2 rounded-sm transition-all hover:-translate-y-1 duration-700  hover:text-darkred hover:shadow-dark-shadow
+    }
+    .inputdesign{
+        @apply border border-solid border-black w-full my-2 py-2 px-4 rounded-md
+    }
+    .smallspan{
+        @apply text-darkred bg-lightred rounded-full py-1 px-5 inline-block
+    }
+}
