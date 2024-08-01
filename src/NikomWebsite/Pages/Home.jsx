@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const Home = () => {
   return (
     <>
-      <div className="bg-[url('./img/banner-bg1.jpg')] bg-cover bg-no-repeat relative xl:h-screen h-[500px]">
+      <div className="banner xl:h-screen h-[500px]">
         <div className='container'>
           <div className='absolute xl:top-44 top-3 xl:left-32 left-3 xl:w-[40%] w-full xl:py-0 py-2  xl:px-0 px-4'>
             <h1 className='text-white text-bold font-bold-font leading-[1.625] mb-4 font-extrabold' data-aos="fade-down" data-aos-delay="100" data-aos-duration="2000">“Accelerating Enterprise Transformation Globally” ADAPT With Aurionpro</h1>

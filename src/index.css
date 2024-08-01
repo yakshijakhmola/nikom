@@ -186,6 +186,12 @@ img{
 .vertical-timeline-element-content-arrow{
     border-right: 7px solid var(--darkred) !important;
 }
+.banner{
+    background-image: url('../public/img/banner-bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 @layer base{
     .centerheading{
         @apply font-bold-font font-bold xl:text-4xl text-2xl text-center mb-7 mt-3
