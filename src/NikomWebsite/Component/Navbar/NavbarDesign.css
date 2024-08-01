@@ -6,7 +6,7 @@
 }
 .header .top-menu>li>a{
     text-transform: lowercase !important;
-    font-size: 16px !important;
+    font-size: 15px !important;
 }
 .header.sticky{
     background: var(--white);
@@ -114,7 +114,7 @@
 }
 
 .header-item-right .menu-icon {
-    font-size: 1.35rem;
+    font-size: 18px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -139,7 +139,7 @@
 .header .menu>ul>li>a {
     position: relative;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.25;
     border: none;
@@ -151,7 +151,7 @@
     font-family: var(--light-font);
 }
 .header .menu>ul>li>a:hover{
-    color: var(--dark-blue);
+    color: var(--darkred);
 }
 
 .header .menu>ul>li .menu-subs {
@@ -179,7 +179,7 @@
 .header .menu>ul>li .menu-subs>ul>li>a {
     display: inline-block;
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 500;
     line-height: 1.25;
     padding: 0.75rem 0;
@@ -210,7 +210,7 @@
 .header .menu>ul>li .menu-subs.menu-mega>.list-item>ul>li>a {
     display: inline-block;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     line-height: 1.25;
     padding: 0.5rem 0;
@@ -242,7 +242,7 @@
 
 .header .menu>ul>li .menu-subs.menu-column-4>.list-item .title {
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 500;
     line-height: 1;
     padding: 0.75rem 0;
@@ -402,7 +402,7 @@
 
     .header .menu>ul>li>a i {
         position: absolute;
-        font-size: 1.25rem;
+        font-size: 18px;
         line-height: 3.125rem;
         top: 0;
         right: 0;
@@ -434,7 +434,7 @@
 
     .header .menu .menu-mobile-header .menu-mobile-arrow {
         display: none;
-        font-size: 1.25rem;
+        font-size: 18px;
         line-height: 3.125rem;
         width: 3.125rem;
         height: 3.125rem;
@@ -452,7 +452,7 @@
 
     .header .menu .menu-mobile-header .menu-mobile-title {
         font-family: inherit;
-        font-size: 1rem;
+        font-size: 16px;
         font-weight: 500;
         line-height: inherit;
         color: var(--black);
@@ -460,7 +460,7 @@
     }
 
     .header .menu .menu-mobile-header .menu-mobile-close {
-        font-size: 1.6rem;
+        font-size: 18;
         line-height: 3.125rem;
         cursor: pointer;
         width: 3.125rem;

@@ -50,8 +50,8 @@ const About = () => {
         <BreadcrumbDesign pagelink={'About'} pagename={'About'}/>
         <div className='section'> 
             <div className='container'>
-                <div className='grid grid-cols-1 xl:grid-cols-3'>
-                    <div className='mt-3 xl:mt-0' data-aos="fade-right" data-aos-delay="100">
+                <div className='grid  grid-cols-12 xl:grid-cols-12 gap-x-5'>
+                    <div className='mt-3 xl:mt-0 col-span-12 xl:col-span-4 lg:col-span-4 p-5' data-aos="fade-right" data-aos-delay="100">
                         <div className='bg-gradient-red w-16 h-16 rounded-full p-2 block m-auto'>
                             <img src='./img/about/vision.svg' className='invert'/>
                         </div>
@@ -61,7 +61,7 @@ const About = () => {
                             associates by always delivering a credible, ethical, and consistent solution to their business needs.</p>
                         </div>
                     </div>
-                    <div className='mt-3 xl:mt-0' data-aos="fade-right" data-aos-delay="200">
+                    <div className='mt-3 xl:mt-0 col-span-12 xl:col-span-4 lg:col-span-4 p-5' data-aos="fade-right" data-aos-delay="200">
                         <div className='bg-gradient-red w-16 h-16 rounded-full p-2 block m-auto'>
                         <img src='./img/about/mission.svg' className='invert'/>
                         </div>
@@ -71,7 +71,7 @@ const About = () => {
                             associates by always delivering a credible, ethical, and consistent solution to their business needs.</p>
                         </div>
                     </div>
-                    <div className='mt-3 xl:mt-0' data-aos="fade-right" data-aos-delay="300">
+                    <div className='mt-3 xl:mt-0 col-span-12 xl:col-span-4 lg:col-span-4 p-5' data-aos="fade-right" data-aos-delay="300">
                         <div className='bg-gradient-red w-16 h-16 rounded-full p-2 block m-auto'>
                             <img src='./img/about/goals.svg' className='invert'/>
                         </div>
@@ -94,12 +94,12 @@ const About = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-5'>
                     {LifeCycle.map((val, ind)=>{
                         return(
-                            <div className='flex items-start gap-x-10 bg-white shadow-dark-shadow p-10 rounded-md' key={ind} data-aos="fade-up" data-aos-delay={(ind + 1) * 100}>
+                            <div className='flex items-start flex-wrap gap-x-5 bg-white shadow-dark-shadow p-5 rounded-md' key={ind} data-aos="fade-up" data-aos-delay={(ind + 1) * 100}>
                                 <div className='text-6xl text-darkred hover:text-black scale-x-100 hover:-scale-x-100 ease-linear transition-all duration-300'>
                                     {val.LifeCycle_icon}
                                 </div>
                                 <div>
-                                    <h2>{val.Lifecycle_number}</h2>
+                                    <h2 className='mb-3'>{val.Lifecycle_number}</h2>
                                     <p>{val.LifeCycle_para}</p>
                                 </div>
                             </div>

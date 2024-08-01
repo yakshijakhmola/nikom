@@ -88,9 +88,9 @@ const ContactDesign = () => {
         <BreadcrumbDesign pagelink={'Contact'} pagename={'Contact'}/>
         <div className='section'>
             <div className='container'>
-                <div className='grid grid-cols-1 xl:grid-cols-12 gap-x-5'>
-                    <div className='col-span-1 xl:col-span-5 bg-white shadow-dark-shadow py-10 px-10 rounded-md' data-aos="fade-right" data-aos-delay="100">
-                        <h4>Contact Information</h4>
+                <div className='grid grid-cols-12 xl:grid-cols-12 gap-x-5'>
+                    <div className='col-span-12 xl:col-span-5 lg:col-span-5 bg-white shadow-dark-shadow p-5 xl:p-10 lg:p-10 rounded-md' data-aos="fade-right" data-aos-delay="100">
+                        <h4 className='mb-3'>Contact Information</h4>
                         <p>Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut blandit felis odio in turpis. Quisque rhoncus, eros in auctor ultrices.</p>
                         <div className='mt-5'>
                             {ContactData.map((val,ind)=>{
@@ -111,8 +111,8 @@ const ContactDesign = () => {
                             <Iframe iframe={iframe} />,
                         </div>
                     </div>
-                    <div className='col-span-1 xl:col-span-7 bg-white shadow-dark-shadow py-10 px-10 rounded-md mt-3 xl:mt-0' data-aos="fade-left" data-aos-delay="200">
-                        <h4>Ready To Get Started? </h4>
+                    <div className='col-span-12 xl:col-span-7 lg:col-span-7 bg-white shadow-dark-shadow p-5 xl:p-10 lg:p-10 rounded-md mt-3 xl:mt-0' data-aos="fade-left" data-aos-delay="200">
+                        <h4 className='mb-3'>Ready To Get Started? </h4>
                         <p>lorem Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut blandit felis odio in turpis. Quisque rhoncus, eros in auctor ultrices,</p>
                         <form className='mt-5' onSubmit={validation}>
                             <div>

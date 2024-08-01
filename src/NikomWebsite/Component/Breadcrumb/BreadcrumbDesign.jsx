@@ -6,8 +6,8 @@ const BreadcrumbDesign = ({pagename, pagelink}) => {
   return (
     <>
         <div>
-            <div className="relative bg-[url('/img/breadcrumb.jpg')] py-20 after:content-[''] after:absolute after:top-0 after:right-0 after:bg-[url('/img/breadcrumb-techno.png')] after:w-full after:h-full after:bg-no-repeat after:bg-contain after:bg-right">
-                <div className='px-10 xl:px-40'>
+            <div className="relative bg-[url('assets/breadcrumb-techno.webp')] xl:py-24 lg:py-24 md:py-20 py-10">
+                <div className='px-5 xl:px-40'>
                     <ul className='flex gap-x-5 text-white'>
                         <li><a onClick={()=>navigate('/')}>Home</a></li>
                         <li><a>/</a></li>

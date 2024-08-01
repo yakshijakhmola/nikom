@@ -75,12 +75,12 @@ const OurTeam = () => {
                     <p className='smallspan'>Team Members</p>
                     <h2 className='centerheading'>Our Professional Team</h2>
                 </div>
-                <div className='grid grid-cols-5'>
+                <div className='grid grid-cols-12 gap-x-5'>
                     {teamjson.map((val, ind)=>{
                         return(
-                            <div key={ind} className='m-3 overflow-hidden' data-aos="fade-right" data-aos-delay={(ind + 1) * 100}>
+                            <div key={ind} className='my-3 overflow-hidden xl:col-span-2 lg:col-span-2 md:col-span-3 col-span-12' data-aos="fade-right" data-aos-delay={(ind + 1) * 100}>
                                 <div>
-                                    <img src={val.team_image} className='hover:scale-110 transition-all ease-linear duration-300'/>
+                                    <img src={val.team_image} className='w-full hover:scale-110 transition-all ease-linear duration-300' alt={val.team_name}/>
                                 </div>
                                 <div className='mt-0 pl-5 team-content py-5'>
                                     <h5 className='mb-0'>{val.team_name}</h5>

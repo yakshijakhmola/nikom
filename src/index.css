@@ -26,7 +26,7 @@ a{
 }
 p{
     font-family: var(--light-font);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
     margin-bottom: 0;
 }
@@ -44,6 +44,17 @@ h4{
 }
 h5{
     font-size: 20px;
+}
+.infopara::after{
+    content: '\f560';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    color: var(--darkred);
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 13px;
 }
 @media(max-width: 560px){
     h1{
@@ -115,7 +126,7 @@ img{
     font-size: 12px;
 }
 .parasize{
-    font-size: 17px;
+    font-size: 15px;
 }
 .leadership-li{
     position: relative;
@@ -195,10 +206,10 @@ img{
         @apply text-white font-bold mb-5
     }
     .footerpara{
-        @apply text-slate-50 text-parasize text-justify leading-6
+        @apply text-slate-50 text-[15px] text-justify leading-6
     }
     .footera{
-        @apply text-parasize text-slate-50 pb-2 hover:text-darkred block transition-all duration-500 ease-linear hover:tracking-wider
+        @apply text-[15px] text-slate-50 pb-2 hover:text-darkred block transition-all duration-500 ease-linear hover:tracking-wider
     }
     .redbtn{
         @apply text-darkred flex items-center gap-x-3 font-bold
@@ -213,12 +224,15 @@ img{
         @apply pb-16
     }
     .servicerightsidebarbox{
-        @apply flex items-center justify-between bg-white  h-16 px-2 my-2 rounded-sm transition-all hover:-translate-y-1 duration-700  hover:text-darkred hover:shadow-dark-shadow
+        @apply flex items-center justify-between shadow-dark-shadow bg-white  h-16 px-2 my-2 rounded-lg transition-all hover:-translate-y-1 duration-700  hover:text-darkred hover:shadow-dark-shadow hover:bg-darkred hover:text-white
     }
     .inputdesign{
         @apply border border-solid border-black w-full my-2 py-2 px-4 rounded-md
     }
     .smallspan{
         @apply text-darkred bg-lightred rounded-full py-1 px-5 inline-block
+    }
+    textarea{
+        @apply resize-none
     }
 }

@@ -1,5 +1,7 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 const FooterDesign = () => {
+    const navigate = useNavigate();
     const FullYear = new Date().getFullYear();
     const ContactDetails = [
         {
@@ -28,36 +30,38 @@ const FooterDesign = () => {
     <>
     <footer className='bg-black xl:pt-10 lg:pt-10 pt-5 border-t-2 border-solid border-darkred'>
         <div className="container">
-            <div className="grid xl:grid-cols-7 lg:grid-cols-7 grid-cols-1 gap-x-5 justify-center">
-                <div className="xl:col-span-2 lg:col-span-2 grid-cols-1 xl:pt-0 lg:pt-0 pt-4 ">
+            <div className="grid xl:grid-cols-12 lg:grid-cols-12 grid-cols-12 gap-x-5 justify-center">
+                <div className="xl:col-span-3 lg:col-span-3  col-span-12 xl:pt-0 lg:pt-0 pt-4 ">
                     <h4 className='footerhead'>About Us</h4>
                     <p className='footerpara'>Nikom – An ISO 9001 Company and Member of IGBC (Indian Green Building Council-CII) has an integrated capability to design and build State-Of-Art World Datacenters, Energy Management Solutions, Defence and Security Solutions, Asset Tracking Services , Information Technology Solutions, and AV solutions on turnkey basis for large and medium enterprises.</p>
                 </div>
-                <div className="xl:col-span-3 lg:col-span-3 grid-cols-1 xl:pt-0 lg:pt-0 pt-4 ">
+                <div className="xl:col-span-6 lg:col-span-6 col-span-12 xl:pt-0 lg:pt-0 pt-4 ">
                     <h4 className='footerhead'>Our Solutions</h4>
-                    <div className="grid xl:grid-cols-2 lg:grid-cols-2 grid-cols-1">
-                        <div className="footer-ulbox">
+                    <div className="grid grid-cols-12 xl:grid-cols-12 ">
+                        <div className="footer-ulbox xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                             <ul>
-                                <li><a href="" className='footera'>Data Center Consultancy</a></li>
-                                <li><a href="" className='footera'>Defence and Homeland Security</a></li>
-                                <li><a href="" className='footera'>IT & Networking Solutions</a></li>
-                                <li><a href="" className='footera'>Data Center Design & Engineering</a></li>
-                                <li><a href="" className='footera'>Data Center Project Management</a></li>
-                                <li><a href="" className='footera'>Data Center Monitoring & Control</a></li>
+                                <li><a onClick={()=>navigate('/data-center-consultancy')} className='footera'>Data Center Consultancy</a></li>
+                                <li><a onClick={()=>navigate('/data-center-design-and-engineering')} className='footera'>Data Center Design And Engineering</a></li>
+                                <li><a onClick={()=>navigate('/data-center-project-management')} className='footera'>Data Center Project Management</a></li>
+                                <li><a onClick={()=>navigate('/data-center-construction')} className='footera'>Data Center Construction</a></li>
+                                <li><a onClick={()=>navigate('/data-center-monitoring-and-control')} className='footera'>Data Center Monitoring And Control</a></li>
+                                <li><a onClick={()=>navigate('/data-center-operations-and-maintenance')} className='footera'>Data Center Operations And Maintenance</a></li>
+                                <li><a onClick={()=>navigate('/energy-management-solutions')} className='footera'>Energy Management Solutions</a></li>
                             </ul>
                         </div>
-                        <div className="footer-ulbox">
+                        <div className="footer-ulbox xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
                             <ul>
-                                <li><a href="" className='footera'>Data Center Operations & Maintenance</a></li>
-                                <li><a href="" className='footera'>Energy Management Solutions</a></li>
-                                <li><a href="" className='footera'>Asset Tracking Service</a></li>
-                                <li><a href="" className='footera'>Audio Visuals / Smart Rooms Solutions</a></li>
-                                <li><a href="" className='footera'>Data Center Construction</a></li>
+                                <li><a onClick={()=>navigate('/asset-tracking-service')} className='footera'>Asset Tracking Service</a></li>
+                                <li><a onClick={()=>navigate('/defence-and-homeland-security')} className='footera'>Defence And Homeland Securities</a></li>
+                                <li><a onClick={()=>navigate('/information-technology')} className='footera'>Information Technology</a></li>
+                                <li><a onClick={()=>navigate('/audio-visuals-and-smart-rooms-solutions')} className='footera'>Audio Visuals / Smart Rooms Solutions</a></li>
+                                <li><a onClick={()=>navigate('/electronic-government')} className='footera'>E-government</a></li>
+                                <li><a onClick={()=>navigate('/intelligent-transport-management')} className='footera'>Intelligent Transport Management</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div className="xl:col-span-2 lg:col-span-2 grid-cols-1 xl:pt-0 lg:pt-0 pt-4 ">
+                <div className="xl:col-span-3 lg:col-span-3 col-span-12 xl:pt-0 lg:pt-0 pt-4 ">
                     <h4 className='footerhead'>Contact Us </h4>
                     {ContactDetails.map((val)=>{
                         return(

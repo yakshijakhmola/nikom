@@ -1,81 +1,43 @@
-import React, { useState, useEffect } from "react";
+import axios from 'axios';
+import React, { useEffect, useState } from 'react'
+import Try from './Try';
+import { useNavigate } from 'react-router-dom';
 
 const Try1 = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [storedata, setStoredata] = useState({
-    name: "",
-    email: "",
-    phone: "",
-  });
-
-  useEffect(() => {
-    const saveData = localStorage.getItem("formData");
-    if (saveData) {
-      setStoredata(JSON.parse(saveData));
+  const navigate = useNavigate();
+  const [country, setCountry] = useState([]);
+  const [search, setSearch] = useState("");
+  const API = "https://restcountries.com/v3.1/all";
+  const HandleInput = (e) =>{
+    setSearch(e.target.value)
+  }
+  const FetchAPI = async () => {
+    try{
+      const GetAllData = await axios.get(API);
+      setCountry(GetAllData?.data)
+      console.log(GetAllData?.data)
     }
-  }, []);
-
-  const SubmitForm = e => {
-    e.preventDefault();
-    try {
-      const formData = { name, email, phone };
-      localStorage.setItem("formData", JSON.stringify(formData));
-      setStoredata(formData); 
-      console.log(formData);
-    } catch (error) {
-      console.log("Something is wrong!");
+    catch(error){
+      console.log(error)
     }
-  };
-
+  }
+  useEffect(()=>{
+    FetchAPI();
+  },[])
   return (
-    <div className="grid grid-cols-2 grid-rows-1 py-10 px-10">
+    <>
       <div>
-        <form>
-          <input
-            type="text"
-            placeholder="Name*"
-            className="border-1 border-solid border-black w-full py-2 px-4 my-2"
-            value={name}
-            onChange={e => setName(e.target.value)}
-          />
-          <input
-            type="email"
-            placeholder="Email Address*"
-            className="border-1 border-solid border-black w-full py-2 px-4 my-2"
-            value={email}
-            onChange={e => setEmail(e.target.value)}
-          />
-          <input
-            type="number"
-            placeholder="Phone Number*"
-            className="border-1 border-solid border-black w-full py-2 px-4 my-2"
-            value={phone}
-            onChange={e => setPhone(e.target.value)}
-          />
-          <button
-            type="submit"
-            className="bg-slate-900 text-center text-white py-2 px-4 rounded-xl"
-            onClick={SubmitForm}
-          >
-            Submit Enquiry
-          </button>
-        </form>
+        <div className="container">
+          <div><input placeholder='Search' type="text" onChange={HandleInput} value={search}/></div>
+          <div className='grid grid-cols-12 gap-4'>
+            {country.map((val)=>(
+              <Try key={val.ccn3} CountryCard={val} onClick={()=>navigate("/service/"+val.name.common)}/>
+            ))}
+          </div>
+        </div>
       </div>
-      <div>
-        <p>
-          <b>Name:</b> {storedata.name}
-        </p>
-        <p>
-          <b>Email:</b> {storedata.email}
-        </p>
-        <p>
-          <b>Contact:</b> {storedata.phone}
-        </p>
-      </div>
-    </div>
-  );
-};
+    </>
+  )
+}
 
-export default Try1;
+export default Try1

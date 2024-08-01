@@ -14,7 +14,7 @@ const BlogCard = () => {
             blog_comment: "0 Comments",
             blog_name: "Necessity May Give us Best Virtual Court",
             blog_btn: "Read More",
-            blog_link: ""
+            blog_link: "blog1"
         },
         {
             id:2,
@@ -27,7 +27,7 @@ const BlogCard = () => {
             blog_comment: "0 Comments",
             blog_name: "Necessity May Give us Best Virtual Court",
             blog_btn: "Read More",
-            blog_link: ""
+            blog_link: "blog1"
         },
         {
             id:3,
@@ -40,7 +40,7 @@ const BlogCard = () => {
             blog_comment: "0 Comments",
             blog_name: "Necessity May Give us Best Virtual Court",
             blog_btn: "Read More",
-            blog_link: ""
+            blog_link: "blog1"
         }
     ]
   return (
@@ -51,18 +51,18 @@ const BlogCard = () => {
                     <p className='smallspan'>Blogs</p>
                     <h2 className='centerheading'>Explore Blogs And News</h2>
                 </div>
-                <div className='grid xl:grid-cols-3 grid-cols-1 gap-x-7'>
+                <div className='grid grid-cols-12 xl:grid-cols-12 lg:grid-cols-12 gap-x-5'>
                     {BlogCardData.map((val)=>{
                         return(
-                            <div key={val.id} className='xl:my-0 my-2' data-aos="fade-up" data-aos-duration="2000">
+                            <div key={val.id} className='xl:my-0 my-2 col-span-12 md:col-span-6 xl:col-span-4 lg:col-span-4 rounded-md' data-aos="fade-up" data-aos-duration="2000">
                                 <div className='relative'>
-                                    <img src={val.blog_image} className='relative'/>
+                                    <img src={val.blog_image} className='relative rounded-tl-md rounded-tr-md'/>
                                     <div className='bg-darkred px-5 py-1 absolute top-3 left-6 text-center'>
                                         <h4 className='text-white'>{val.blog_date}</h4>
                                         <span className='text-sm text-white-para-color'>{val.blog_month}</span>
                                     </div>
                                 </div>
-                                <div className='py-5 px-5 bg-white shadow-dark-shadow'>
+                                <div className='p-5 bg-white shadow-dark-shadow rounded-bl-md rounded-br-md'>
                                     <div className='flex items-center gap-x-8 border-b border-solid border-light-gray pb-4'>
                                         <div className='flex items-center gap-x-2'>
                                             <img src={val.blog_adminicon} className='w-3'/>
@@ -74,8 +74,8 @@ const BlogCard = () => {
                                         </div>
                                     </div>
                                     <div>
-                                        <h5 className='my-5'>{val.blog_name}</h5>
-                                        <a className="redbtn" href={val.blog_link}>{val.blog_btn} <span className='text-2xl'><FiChevronsRight /></span></a>
+                                        <h5 className='my-3'>{val.blog_name}</h5>
+                                        <a className="redbtn" href={val.blog_link}>{val.blog_btn} <span className='text-xl'><FiChevronsRight /></span></a>
                                     </div>
                                 </div>
                             </div>

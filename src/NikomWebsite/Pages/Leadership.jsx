@@ -1,7 +1,5 @@
 import React from 'react';
-import NavbarDesign from '../Component/Navbar/NavbarDesign';
 import BreadcrumbDesign from '../Component/Breadcrumb/BreadcrumbDesign';
-import FooterDesign from '../Component/Footer/FooterDesign';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 const Leadership = () => {
   return (
@@ -9,11 +7,11 @@ const Leadership = () => {
     <BreadcrumbDesign pagelink={'Leadership'} pagename={'Leadership'}/>
     <div className='pt pb bg-[url("./img/left-bg-techno.png")] bg-no-repeat bg-left-top'>
         <div className='container'>
-            <div className='grid grid-cols-1 xl:grid-cols-12 w-full'>
-                <div className='col-span-1 xl:col-span-5 z-10 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full after:bg-darkred after:rotate-3' data-aos="fade-down" data-aos-delay="200">
-                    <img src='./img/about/profile.jpg' className='' />
+            <div className='grid grid-cols-12 xl:grid-cols-12 w-full'>
+                <div className='col-span-12 xl:col-span-5 z-10 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full after:bg-darkred after:rotate-1 xl:after:rotate-3' data-aos="fade-down" data-aos-delay="200">
+                    <img src='./img/about/profile.jpg' className='w-full' />
                 </div>
-                <div className='col-span-1 xl:col-span-7 pl-0 xl:pl-20'  data-aos="fade-up" data-aos-delay="400">
+                <div className='col-span-12 xl:col-span-7 pl-0 xl:pl-20 mt-5 xl:mt-0'  data-aos="fade-up" data-aos-delay="400">
                     <div>
                         <p className='text-darkred bg-lightred rounded-full py-1 px-5 inline-block'>Chairman</p>
                         <h2>Dr. V.K. Garg</h2>
@@ -37,7 +35,7 @@ const Leadership = () => {
     <div className='pb bg-[url("./img/right-bg-techno.png")] bg-no-repeat bg-right-top'>
         <div className='container'>
             <div className='grid grid-cols-1 xl:grid-cols-12 w-full place-items-center'>
-                <div className='col-span-1 xl:col-span-7 pr-0 xl:pr-20' data-aos="fade-up" data-aos-delay="200">
+                <div className='col-span-12 xl:col-span-7 pr-0 xl:pr-20 mb-5 xl:mb-0' data-aos="fade-up" data-aos-delay="200">
                     <div>
                         <span className='smallspan'>Managing Director & CEO</span>
                         <h2>Asheesh Garg</h2>
@@ -56,8 +54,8 @@ const Leadership = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='col-span-1 xl:col-span-5 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full after:bg-darkred after:rotate-3' data-aos="fade-down" data-aos-delay="400">
-                    <img src='./img/about/profile.jpg' className='' />
+                <div className='col-span-12 xl:col-span-5 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full after:bg-darkred after:rotate-1 xl:after:rotate-3' data-aos="fade-down" data-aos-delay="400">
+                    <img src='./img/about/profile.jpg' className='w-full' />
                 </div>
             </div>
         </div>
