@@ -14,7 +14,7 @@ const BlogCard = () => {
             blog_comment: "0 Comments",
             blog_name: "Necessity May Give us Best Virtual Court",
             blog_btn: "Read More",
-            blog_link: "blog1"
+            blog_link: "/blog1"
         },
         {
             id:2,
@@ -27,7 +27,7 @@ const BlogCard = () => {
             blog_comment: "0 Comments",
             blog_name: "Necessity May Give us Best Virtual Court",
             blog_btn: "Read More",
-            blog_link: "blog1"
+            blog_link: "/blog1"
         },
         {
             id:3,
@@ -40,7 +40,7 @@ const BlogCard = () => {
             blog_comment: "0 Comments",
             blog_name: "Necessity May Give us Best Virtual Court",
             blog_btn: "Read More",
-            blog_link: "blog1"
+            blog_link: "/blog1"
         }
     ]
   return (
