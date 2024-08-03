@@ -1,7 +1,9 @@
 import React from 'react'
 import { FiChevronsRight } from "react-icons/fi";
+import { useNavigate } from 'react-router-dom';
 
 const BlogCard = () => {
+    const navigate = useNavigate();
     const BlogCardData = [
         {
             id:1,
@@ -75,7 +77,7 @@ const BlogCard = () => {
                                     </div>
                                     <div>
                                         <h5 className='my-3'>{val.blog_name}</h5>
-                                        <a className="redbtn" href={val.blog_link}>{val.blog_btn} <span className='text-xl'><FiChevronsRight /></span></a>
+                                        <a className="redbtn" onClick={()=>navigate(`${val.blog_link}`)}>{val.blog_btn} <span className='text-xl'><FiChevronsRight /></span></a>
                                     </div>
                                 </div>
                             </div>
