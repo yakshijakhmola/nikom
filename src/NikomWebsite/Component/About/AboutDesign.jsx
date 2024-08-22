@@ -34,10 +34,10 @@ const AboutDesign = ({Extratext, Showbtn}) => {
                     <div data-aos="fade-left" data-aos-duration="2000" className='mt-5 xl:mt-0 lg:mt-5'>
                         <h3 className='text-white xl:text-4xl text-2xl'>Transformative Tech Solutions Provider</h3>
                         <p className='text-white-para-color text-parasize my-5'>Nikom An ISO 9001 Company and Member of IGBC (Indian Green Building Council-CII) has an integrated capability to design and build State-Of-Art World Class Datacenters, Energy Management Solutions{Extratext}</p>
-                        <div className='grid grid-cols-2'>
+                        <div className='grid grid-cols-12'>
                         {AboutData.map((val,ind)=>{
                             return(
-                                <div key={ind} className='mb-4 border-l-[6px] border-solid border-darkred pl-5'>
+                                <div key={ind} className='col-span-4 mb-4 border-l-[6px] border-solid border-darkred pl-5'>
                                     <h3 className='text-white'>{val.About_number}</h3>
                                     <span className='text-white-para-color text-parasize'>{val.About_para}</span>
                                 </div>

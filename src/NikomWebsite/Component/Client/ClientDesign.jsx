@@ -85,7 +85,7 @@ const ClientDesign = () => {
     <>
       <div className='-mt-10'>
         <div className='container'>
-          <Slider {...settings} className='bg-black py-5'>
+          <Slider {...settings} className='bg-white py-5 shadow-dark-shadow'>
             {ClientDesignJson.map((val,ind)=>{
               return(
                 <div key={ind}>
