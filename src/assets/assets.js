@@ -127,6 +127,8 @@ import Sunil from './team/sunil-gupta.webp';
 
 import Asheesh from './asheesh.webp';
 import VKGarg from './vk-garg.webp';
+import ArinLeader from './arin.webp';
+import VinodLeader from './vinod.webp';
 
 import MSMECertificate from './award/msme-certificate.webp';
 import MSMEAward from './award/msme-award.webp';
@@ -183,7 +185,7 @@ export const assets = {
     Vivek, Pankaj, Haris, Neetu, Annasa, Anup, Ravi, Jaswinder, Bhuvan, Uday, Nirmal, 
     Shivangi, Dheeraj, BSKiran, Jyoti, Laxminaryan, Shalini, Uttkarsh, Vijaya, Sunil,
 
-    Asheesh, VKGarg,
+    Asheesh, VKGarg, ArinLeader, VinodLeader,
 
     MSMECertificate, MSMEAward, MSME3
 };
