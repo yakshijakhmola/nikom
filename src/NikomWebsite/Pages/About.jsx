@@ -1,10 +1,9 @@
 import React from 'react'
 import AboutDesign from '../Component/About/AboutDesign'
-import NavbarDesign from '../Component/Navbar/NavbarDesign'
-import FooterDesign from '../Component/Footer/FooterDesign'
 import BreadcrumbDesign from '../Component/Breadcrumb/BreadcrumbDesign'
 import TimelineDesign from '../Component/Timeline/TimelineDesign'
 import { FiLayers } from "react-icons/fi";
+import { assets } from '../../assets/assets';
 
 const About = () => {
     const LifeCycle = [
@@ -53,7 +52,7 @@ const About = () => {
                 <div className='grid  grid-cols-12 xl:grid-cols-12 gap-x-5'>
                     <div className='mt-3 xl:mt-0 col-span-12 xl:col-span-4 lg:col-span-4 p-5' data-aos="fade-right" data-aos-delay="100">
                         <div className='bg-gradient-red w-16 h-16 rounded-full p-2 block m-auto'>
-                            <img src='./img/about/vision.svg' className='invert'/>
+                            <img src={assets.Vision} className='invert'/>
                         </div>
                         <div>
                             <h5 className='text-center my-3'>Vision</h5>
@@ -63,7 +62,7 @@ const About = () => {
                     </div>
                     <div className='mt-3 xl:mt-0 col-span-12 xl:col-span-4 lg:col-span-4 p-5' data-aos="fade-right" data-aos-delay="200">
                         <div className='bg-gradient-red w-16 h-16 rounded-full p-2 block m-auto'>
-                        <img src='./img/about/mission.svg' className='invert'/>
+                        <img src={assets.Mission} className='invert'/>
                         </div>
                         <div>
                             <h5 className='text-center my-3'>Mission</h5>
@@ -73,7 +72,7 @@ const About = () => {
                     </div>
                     <div className='mt-3 xl:mt-0 col-span-12 xl:col-span-4 lg:col-span-4 p-5' data-aos="fade-right" data-aos-delay="300">
                         <div className='bg-gradient-red w-16 h-16 rounded-full p-2 block m-auto'>
-                            <img src='./img/about/goals.svg' className='invert'/>
+                            <img src={assets.Goals} className='invert'/>
                         </div>
                         <div>
                             <h5 className='text-center my-3'>Goals</h5>

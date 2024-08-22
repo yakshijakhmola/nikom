@@ -79,7 +79,7 @@ const ProjectMilestone = () => {
                     {ProjectMilestoneJson.map((projectval, id)=>{
                         return(
                             <>
-                                <div className='col-span-12 md:col-span-6 xl:col-span-4 lg:col-span-4 bg-white p-3 shadow-dark-shadow rounded-md transition-all duration-900  ease-linear'>
+                                <div className='col-span-12 md:col-span-6 xl:col-span-4 lg:col-span-4 bg-white p-3 shadow-dark-shadow rounded-md transition-all duration-900  ease-linear' data-aos="fade-right" data-aos-delay={(id + 1) * 100}>
                                     <div className='overflow-hidden rounded-lg transition-all duration-900 ease-linear'><img src={projectval.Project_image} alt="projectmilestone" className='rounded-md mb-3 hover:scale-110 transition-all duration-900 ease-linear' /></div>
                                     <h5 className=''>{projectval.Project_Name}</h5>
                                     <p className='text-darkred'>{projectval.Project_para}</p>

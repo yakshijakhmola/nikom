@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
+import { assets } from '../../../assets/assets';
 
 const AboutDesign = ({Extratext, Showbtn}) => {
     const AboutData = [
@@ -26,8 +27,8 @@ const AboutDesign = ({Extratext, Showbtn}) => {
                 <div className='grid xl:grid-cols-2 grid-cols-1'>
                     <div data-aos="fade-down" data-aos-duration="1000">
                        <div className='relative'>
-                            <img className="relative xl:mb-0 md:mb-0 lg:mb-0 mb-4" src='./img/about/about1.webp'/>
-                            <img className="absolute -bottom-0 right-24 xl:block lg:block md:block hidden" src='./img/about/about2.webp'/>
+                            <img className="relative xl:mb-0 md:mb-0 lg:mb-0 mb-4" src={assets.About1}/>
+                            <img className="absolute -bottom-0 right-24 xl:block lg:block md:block hidden" src={assets.About2}/>
                        </div>
                     </div>
                     <div data-aos="fade-left" data-aos-duration="2000" className='mt-5 xl:mt-0 lg:mt-5'>

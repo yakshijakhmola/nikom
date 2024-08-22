@@ -25,7 +25,7 @@ const SideBarBlog = () => {
     ]
   return (
     <>
-        <div className='col-span-12 xl:col-span-4 lg:col-span-4 mt-3 xl:mt-0'>
+        <div className='col-span-12 xl:col-span-4 lg:col-span-4 mt-3 xl:mt-0' data-aos="fade-left" data-aos-duration="2000">
             <div className='bg-white shadow-dark-shadow p-5 rounded-md'>
                 <h5 className='mb-3'>Leave a Comment</h5>
                 <form className=''>

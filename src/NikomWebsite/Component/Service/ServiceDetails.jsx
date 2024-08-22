@@ -19,7 +19,7 @@ const ServiceDetails = ({
         <div className='section'>
             <div className='container'>
                 <div>
-                    <img src={ServiceMainImage} className='rounded-3xl h-92 w-full shadow-dark-shadow'/>  
+                    <img src={ServiceMainImage} className='rounded-3xl h-92 w-full shadow-dark-shadow' data-aos="fade-down" data-aos-duration="1000"/>  
                 </div>
                 <div className='grid grid-cols-12 xl:grid-cols-12 lg:grid-cols-12 gap-x-5 mt-10'>
                     <div className='col-span-12 xl:col-span-8 lg:col-span-8'>   

@@ -70,7 +70,7 @@ const ServiceSideBar = () => {
     ]
   return (
     <>
-    <div className='rounded-tl-2xl rounded-tr-2xl rounded-bl-lg rounded-br-lg border border-solid shadow-dark-shadow border-darkred overflow-hidden'>
+    <div className='rounded-tl-2xl rounded-tr-2xl rounded-bl-lg rounded-br-lg border border-solid shadow-dark-shadow border-darkred overflow-hidden' data-aos="fade-left" data-aos-duration="2000">
         <h4 className='bg-darkred text-center text-white py-4 rounded-tl-2xl rounded-tr-2xl'>All Services</h4> 
         <div className='my-5 px-5'>
             {ServiceLeftsideData.map((val,ind)=>{

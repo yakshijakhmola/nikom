@@ -1,6 +1,7 @@
 import React from 'react';
 import BreadcrumbDesign from '../Component/Breadcrumb/BreadcrumbDesign';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { assets } from '../../assets/assets';
 const Leadership = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const Leadership = () => {
         <div className='container'>
             <div className='grid grid-cols-12 xl:grid-cols-12 w-full'>
                 <div className='col-span-12 xl:col-span-5 z-10 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full after:bg-darkred after:rotate-1 xl:after:rotate-3' data-aos="fade-down" data-aos-delay="200">
-                    <img src='./img/about/profile.jpg' className='w-full' />
+                    <img src={assets.VKGarg} className='w-full' />
                 </div>
                 <div className='col-span-12 xl:col-span-7 pl-0 xl:pl-20 mt-5 xl:mt-0'  data-aos="fade-up" data-aos-delay="400">
                     <div>
@@ -55,7 +56,7 @@ const Leadership = () => {
                     </div>
                 </div>
                 <div className='col-span-12 xl:col-span-5 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full after:bg-darkred after:rotate-1 xl:after:rotate-3' data-aos="fade-down" data-aos-delay="400">
-                    <img src='./img/about/profile.jpg' className='w-full' />
+                    <img src={assets.Asheesh} className='w-full' />
                 </div>
             </div>
         </div>

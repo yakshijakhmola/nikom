@@ -10,20 +10,8 @@ const CaseStudies = () => {
       casestudies_btn: "/casestudiesdetails"
     },
     {
-      CaseStudies_image: "./img/case-studie/case-studies-detail.jpg",
+      CaseStudies_image: assets.DummyCase,
       CaseStudies_head: "Case studies 1",
-      CaseStudies_para: "Our Data Center Consulting Services has enterprise-wide, comprehensive approach to safeguard the company's mission critical environments.",
-      casestudies_btn: "/casestudiesdetails"
-    },
-    {
-      CaseStudies_image: "./img/case-studie/case-studies-detail.jpg",
-      CaseStudies_head: "Case studies 2",
-      CaseStudies_para: "Our Data Center Consulting Services has enterprise-wide, comprehensive approach to safeguard the company's mission critical environments.",
-      casestudies_btn: "/casestudiesdetails"
-    },
-    {
-      CaseStudies_image: "./img/case-studie/case-studies-detail.jpg",
-      CaseStudies_head: "Case studies 3",
       CaseStudies_para: "Our Data Center Consulting Services has enterprise-wide, comprehensive approach to safeguard the company's mission critical environments.",
       casestudies_btn: "/casestudiesdetails"
     }

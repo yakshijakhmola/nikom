@@ -1,7 +1,14 @@
 import Logo from '../assets/logo.png';
-import DRSite from '../assets/case-studie/drsite-hyderabad.webp';
-import DRSite1 from '../../public/img/case-studie/drsite-hyderabad1.webp';
-import DRSite2 from '../../public/img/case-studie/drsite-hyderabad2.webp';
+import DRSite from  '../assets/case-studie/drsite-hyderabad.webp'
+import DRSite1 from '../assets/case-studie/drsite-hyderabad1.webp';
+import DRSite2 from '../assets/case-studie/drsite-hyderabad2.webp';
+import DummyCase from '../assets/case-studie/case-studies-detail.jpg';
+
+import Vision from '../assets/about/vision.svg';
+import Mission from '../assets/about/mission.svg';
+import Goals from '../assets/about/goals.svg';
+import About1 from '../assets/about/about1.webp';
+import About2 from '../assets/about/about2.webp';
 
 import DataConsultancy from './service/data-center-consultancy.webp';
 import DataCenterEngineer from './service/data-center-design-engineer.webp'; 
@@ -86,11 +93,50 @@ import medanta from './clients/medanta.webp';
 
 import Project from './project1.png'
 
+
+import Arin from './team/arin.webp';
+import Vinod from './team/vinod.webp';
+import Mithilesh from './team/mithilesh.webp';
+import Gunjan from './team/gunjan.webp';
+import Parshant from './team/prashant.webp';
+import ShriRam from './team/shri-ram.webp';
+import Ayush from './team/ayush.webp';
+import Prachi from './team/prachi.webp';
+import Kirti from './team/kirti.webp';
+import Mahesh from './team/mahesh.webp';
+import Vivek from './team/vivek-bansal.webp';
+import Pankaj from './team/pankaj.webp';
+import Haris from './team/haris.webp';
+import Neetu from './team/neetu-kumari.webp';
+import Annasa from './team/annasa-biswas.webp';
+import Anup from './team/anup-sayal.webp';
+import Ravi from './team/ravi-mandal.webp';
+import Jaswinder from './team/jaswinder-kaur.webp';
+import Bhuvan from './team/bhuvan-singh.webp';
+import Uday from './team/uday-p-singh.webp';
+import Nirmal from './team/nirmal-parsad.webp';
+import Shivangi from './team/shivangi-jha.webp';
+import Dheeraj from './team/dheeraj.webp';
+import BSKiran from './team/bs-kiran.webp';
+import Jyoti from './team/jyoti-kumari.webp';
+import Laxminaryan from './team/v-laxminaryan.webp';
+import Shalini from './team/shalini.webp';
+import Uttkarsh from './team/uttkarsh.webp';
+import Vijaya from './team/vijaya-kumari.webp';
+import Sunil from './team/sunil-gupta.webp';
+
+import Asheesh from './asheesh.webp';
+import VKGarg from './vk-garg.webp';
+
+import MSMECertificate from './award/msme-certificate.webp';
+import MSMEAward from './award/msme-award.webp';
+import MSME3 from './award/msme3.webp';
+
+
 export const assets = {
-    Logo,
-    DRSite,
-    DRSite1,
-    DRSite2,
+    Logo, DRSite, DRSite1, DRSite2, DummyCase,
+
+    Vision, Mission, Goals, About1, About2,
 
     DataConsultancy,
     DataCenterEngineer,
@@ -131,5 +177,13 @@ export const assets = {
     education1, education2, education3, education4, education5,
     igb, apollo,  max, medanta,
 
-    Project
+    Project,
+
+    Arin, Vinod, Mithilesh, Gunjan, Parshant, ShriRam, Ayush, Prachi, Kirti, Mahesh,
+    Vivek, Pankaj, Haris, Neetu, Annasa, Anup, Ravi, Jaswinder, Bhuvan, Uday, Nirmal, 
+    Shivangi, Dheeraj, BSKiran, Jyoti, Laxminaryan, Shalini, Uttkarsh, Vijaya, Sunil,
+
+    Asheesh, VKGarg,
+
+    MSMECertificate, MSMEAward, MSME3
 };
