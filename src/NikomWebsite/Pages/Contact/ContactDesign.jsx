@@ -24,7 +24,7 @@ const ContactDesign = () => {
         {
             contact_icon: "fa-solid fa-location-dot",
             contact_name: "Address",
-            contact_info: "	309, Skylark Building 60, Nehru Place, New Delhi-110019 India",
+            contact_info: "W-23 , phase-II , Okhla industrial Area , New Delhi-110020",
             contact_link: "tel: +91 9876543210"
         }
     ]

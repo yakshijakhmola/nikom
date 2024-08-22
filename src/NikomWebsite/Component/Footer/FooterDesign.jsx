@@ -23,7 +23,7 @@ const FooterDesign = () => {
             Contact_icon: "fa-solid fa-location-dot",
             contact_head: "Address",
             contact_link: "https://maps.app.goo.gl/naBNNqDcHT5NA4ds7",
-            contact_para: "309, Skylark Bldg. 60, Nehru Place, New Delhi-110019 (INDIA)"
+            contact_para: "W-23 , phase-II , Okhla industrial Area , New Delhi-110020"
         }
     ]
   return (
