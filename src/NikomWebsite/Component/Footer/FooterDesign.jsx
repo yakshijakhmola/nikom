@@ -1,5 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import { assets } from '../../../assets/assets';
+import { FaLinkedinIn, FaInstagram, FaFacebookF} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 const FooterDesign = () => {
     const navigate = useNavigate();
     const FullYear = new Date().getFullYear();
@@ -35,7 +38,7 @@ const FooterDesign = () => {
                     <h4 className='footerhead'>About Us</h4>
                     <p className='footerpara'>Nikom – An ISO 9001 Company and Member of IGBC (Indian Green Building Council-CII) has an integrated capability to design and build State-Of-Art World Datacenters, Energy Management Solutions, Defence and Security Solutions, Asset Tracking Services , Information Technology Solutions, and AV solutions on turnkey basis for large and medium enterprises.</p>
                 </div>
-                <div className="xl:col-span-6 lg:col-span-6 col-span-12 xl:pt-0 lg:pt-0 pt-4 ">
+                <div className="xl:col-span-5 lg:col-span-6 col-span-12 xl:pt-0 lg:pt-0 pt-4 ">
                     <h4 className='footerhead'>Our Solutions</h4>
                     <div className="grid grid-cols-12 xl:grid-cols-12 ">
                         <div className="footer-ulbox xl:col-span-6 lg:col-span-6 md:col-span-6 col-span-12">
@@ -61,7 +64,7 @@ const FooterDesign = () => {
                         </div>
                     </div>
                 </div>
-                <div className="xl:col-span-3 lg:col-span-3 col-span-12 xl:pt-0 lg:pt-0 pt-4 ">
+                <div className="xl:col-span-4 lg:col-span-3 col-span-12 xl:pt-0 lg:pt-0 pt-4 ">
                     <h4 className='footerhead'>Contact Us </h4>
                     {ContactDetails.map((val)=>{
                         return(
@@ -76,6 +79,12 @@ const FooterDesign = () => {
                             </div>
                         )
                     })}
+                    <div className='flex gap-x-5 mt-5 flex-wrap'>
+                        <a href="" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300'><FaLinkedinIn/></a>
+                        <a href="" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300'><FaInstagram/></a>
+                        <a href="" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300'><FaFacebookF/></a>
+                        <a href="" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300'><FaXTwitter/></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -96,6 +105,7 @@ const FooterDesign = () => {
            </div>
         </div>
     </footer>
+    <a href="" className='fixed right-3 bottom-20 z-50'><img src={assets.Whatsapp} className='w-12' alt="whatsapp" /></a>
     </>
   )
 }

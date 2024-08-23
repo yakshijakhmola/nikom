@@ -30,7 +30,7 @@ const TimelineDesign = () => (
           icon={<FaReact />}
         >
           <h4 className="vertical-timeline-element-subtitle">2022</h4>
-          <p>Runner’s up in ASSOCHAM Excellence Award for Best  MSME </p>
+          <p>Runner'  s up in ASSOCHAM Excellence Award for Best  MSME </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

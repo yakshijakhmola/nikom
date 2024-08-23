@@ -49,8 +49,8 @@ const About = () => {
         <BreadcrumbDesign pagelink={'About'} pagename={'About'}/>
         <div className='section'> 
             <div className='container'>
-                <div className='grid  grid-cols-12 xl:grid-cols-12 gap-x-5'>
-                    <div className='mt-3 xl:mt-0 col-span-12 xl:col-span-4 lg:col-span-4 p-5' data-aos="fade-right" data-aos-delay="100">
+                <div className="grid  xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-x-5 grid-cols-1 justify-center items-start">
+                    <div className='mt-3 xl:mt-0 p-5' data-aos="fade-right" data-aos-delay="100">
                         <div className='bg-gradient-red w-16 h-16 rounded-full p-2 block m-auto'>
                             <img src={assets.Vision} className='invert'/>
                         </div>
@@ -59,25 +59,14 @@ const About = () => {
                             <p className='text-center'>To foster long-lasting and mutually meaningful partnerships with our customers and business
                             associates by always delivering a credible, ethical, and consistent solution to their business needs.</p>
                         </div>
-                    </div>
-                    <div className='mt-3 xl:mt-0 col-span-12 xl:col-span-4 lg:col-span-4 p-5' data-aos="fade-right" data-aos-delay="200">
+                    </div>      
+                    <div className='mt-3 xl:mt-0 p-5' data-aos="fade-right" data-aos-delay="200">
                         <div className='bg-gradient-red w-16 h-16 rounded-full p-2 block m-auto'>
                         <img src={assets.Mission} className='invert'/>
                         </div>
                         <div>
                             <h5 className='text-center my-3'>Mission</h5>
-                            <p className='text-center'>To foster long-lasting and mutually meaningful partnerships with our customers and business
-                            associates by always delivering a credible, ethical, and consistent solution to their business needs.</p>
-                        </div>
-                    </div>
-                    <div className='mt-3 xl:mt-0 col-span-12 xl:col-span-4 lg:col-span-4 p-5' data-aos="fade-right" data-aos-delay="300">
-                        <div className='bg-gradient-red w-16 h-16 rounded-full p-2 block m-auto'>
-                            <img src={assets.Goals} className='invert'/>
-                        </div>
-                        <div>
-                            <h5 className='text-center my-3'>Goals</h5>
-                            <p className='text-center'>To foster long-lasting and mutually meaningful partnerships with our customers and business
-                            associates by always delivering a credible, ethical, and consistent solution to their business needs.</p>
+                            <p className='text-center'>Building Trust...</p>
                         </div>
                     </div>
                 </div>

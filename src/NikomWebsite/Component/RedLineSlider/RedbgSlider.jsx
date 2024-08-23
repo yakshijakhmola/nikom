@@ -49,32 +49,20 @@ const RedLineSlider = () => {
   const NewsUpdated = [
     {
       id: 1,
-      News_name: 'News - Aurionpro Continues High Growth Trajectory with Strong Q3 FY24 Results: Revenue grows 37% YoY1',
+      News_name: 'Dr VK Garg , Chairman Nikom received the National Award " Vayoshrestha " from Honorable President of India for philanthropic award.',
     },
     {
       id: 2,
-      News_name: 'News - Aurionpro Continues High Growth Trajectory with Strong Q3 FY24 Results: Revenue grows 37% YoY2',
+      News_name: 'Awarded as one of the " 10 Most Promising Datacentre Solution Providers " in India in 2019 and 2021',
     },
     {
       id: 3,
-      News_name: 'News - Aurionpro Continues High Growth Trajectory with Strong Q3 FY24 Results: Revenue grows 37% YoY3',
+      News_name: 'Awarded by INDOBES for Excellence & Innovation in HPC datacenter',
     },
     {
       id: 4,
-      News_name: 'News - Aurionpro Continues High Growth Trajectory with Strong Q3 FY24 Results: Revenue grows 37% YoY4',
-    },
-    {
-      id: 5,
-      News_name: 'News - Aurionpro Continues High Growth Trajectory with Strong Q3 FY24 Results: Revenue grows 37% YoY5',
-    },
-    {
-      id: 6,
-      News_name: 'News - Aurionpro Continues High Growth Trajectory with Strong Q3 FY24 Results: Revenue grows 37% YoY6',
-    },
-    {
-      id: 7,
-      News_name: 'News - Aurionpro Continues High Growth Trajectory with Strong Q3 FY24 Results: Revenue grows 37% YoY7',
-    },
+      News_name: 'Rated as SME 1 for Highest Creditworthiness by Brickworks Anlaytics',
+    }
   ];
 
   return (

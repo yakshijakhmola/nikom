@@ -66,7 +66,6 @@ const NavbarDesign = () => {
                       <li><a onClick={()=>navigate('/about')}>Company About</a></li>
                       <li><a onClick={()=>navigate('/awards-and-certificate')}>Awards & Certificate</a></li>
                       <li><a onClick={()=>navigate('/leadership')}>Leadership</a></li>
-                      <li><a onClick={()=>navigate('/ourteam')}>Advisory Team</a></li>
                     </ul>
                   </div>}
                 </li>

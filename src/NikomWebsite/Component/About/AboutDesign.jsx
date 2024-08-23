@@ -1,8 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa6";
 import { assets } from '../../../assets/assets';
 
 const AboutDesign = ({Extratext, Showbtn}) => {
+    const navigate = useNavigate();
     const AboutData = [
         {
             id:1,
@@ -37,7 +39,7 @@ const AboutDesign = ({Extratext, Showbtn}) => {
                         <div className='grid grid-cols-12'>
                         {AboutData.map((val,ind)=>{
                             return(
-                                <div key={ind} className='col-span-4 mb-4 border-l-[6px] border-solid border-darkred pl-5'>
+                                <div key={ind} className='col-span-6 xl:col-span-4 lg:col-span-4 mb-4 border-l-[6px] border-solid border-darkred pl-5'>
                                     <h3 className='text-white'>{val.About_number}</h3>
                                     <span className='text-white-para-color text-parasize'>{val.About_para}</span>
                                 </div>
@@ -45,7 +47,7 @@ const AboutDesign = ({Extratext, Showbtn}) => {
                         })}
                         </div>
                         <>
-                            {Showbtn?  <a href="" className='dark-btn mt-5'>Read More <FaArrowRight className='circle'/></a>: ""}
+                            {Showbtn?  <a onClick={()=>navigate('/about')} className='dark-btn mt-5'>Read More <FaArrowRight className='circle'/></a>: ""}
                         </>
                     </div>
                 </div>

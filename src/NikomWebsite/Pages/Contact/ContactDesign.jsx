@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { FaArrowRight, FaPhone } from "react-icons/fa6";
 import CountryCode from './CountryCode';
-import NavbarDesign from '../../Component/Navbar/NavbarDesign';
-import FooterDesign from '../../Component/Footer/FooterDesign';
 import BreadcrumbDesign from '../../Component/Breadcrumb/BreadcrumbDesign';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

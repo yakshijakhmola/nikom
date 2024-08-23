@@ -138,6 +138,8 @@ import MSMECertificate from './award/msme-certificate.webp';
 import MSMEAward from './award/msme-award.webp';
 import MSME3 from './award/msme3.webp';
 
+import Whatsapp from '../assets/whatsapp.webp';
+
 
 export const assets = {
     Logo, DRSite, DRSite1, DRSite2, DummyCase,
@@ -192,5 +194,5 @@ export const assets = {
 
     Asheesh, VKGarg, ArinLeader, VinodLeader,
 
-    MSMECertificate, MSMEAward, MSME3
+    MSMECertificate, MSMEAward, MSME3, Whatsapp
 };

@@ -89,10 +89,6 @@ function App() {
           element: <Leadership/>
         },
         {
-          path: '/ourteam',
-          element: <OurTeam/>
-        },
-        {
           path: '/try1',
           element: <Try1/>
         },
