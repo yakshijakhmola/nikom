@@ -62,6 +62,10 @@ const RedLineSlider = () => {
     {
       id: 4,
       News_name: 'Rated as SME 1 for Highest Creditworthiness by Brickworks Anlaytics',
+    },
+    {
+      id: 5,
+      News_name: 'Nikom Infrasolutions Pvt Ltd has been honored with the award for “Operational Excellence - Data Center Design and Build” for Excellence in the Datacenter Ecosystem at the ASSOCHAM India “Smart Datacenters & Cloud Infrastructure Summit 2024.”',
     }
   ];
 
