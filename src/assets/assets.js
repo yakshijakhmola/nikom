@@ -86,6 +86,10 @@ import education2 from "./clients/education2.webp";
 import education3 from "./clients/education3.webp";
 import education4 from "./clients/education4.webp";
 import education5 from "./clients/education5.webp";
+import IMD from './clients/imd.webp';
+import CSIR from './clients/csir.webp';
+import CDAC from './clients/cdac.webp';
+import ERNET from './clients/ernet.webp';
 import igb from "./clients/igb.webp";
 import apollo from "./clients/apollo.webp";
 import max from "./clients/max-healthcare.webp";
@@ -177,6 +181,7 @@ export const assets = {
     imperial, country, tivoli,
     defence1, defence2, defence3, defence4,
     education1, education2, education3, education4, education5,
+    IMD, CSIR, CDAC, ERNET,
     igb, apollo,  max, medanta,
 
     Project,

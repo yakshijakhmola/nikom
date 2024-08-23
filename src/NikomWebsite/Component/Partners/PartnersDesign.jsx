@@ -213,6 +213,24 @@ const PartnersDesign = () => {
             Education_Logo: assets.education5
         }
     ]
+    const RD =[
+        {
+            id:1,
+            RD_Logo: assets.IMD
+        },
+        {
+            id:2,
+            RD_Logo: assets.CSIR
+        },
+        {
+            id:3,
+            RD_Logo: assets.CDAC
+        },
+        {
+            id:4,
+            RD_Logo: assets.ERNET
+        }
+    ]
     const HealtchCare=[
         {
             id:1,
@@ -381,12 +399,12 @@ const PartnersDesign = () => {
         <div className='pt-10 flex justify-center items-center h-full'>
             <div className='container'>
                 <div className='border border-dashed border-darkred rounded-lg p-5 relative'>
-                    <h6 className='absolute -top-3 left-5 bg-darkred text-center text-white px-3 rounded-md'>Defence Client's</h6>
+                    <h6 className='absolute -top-3 left-5 bg-darkred text-center text-white px-3 rounded-md'>R  & D Client's</h6>
                     <div className='grid grid-cols-12'>
-                        {Defence.map((Defenceval,id)=>{
+                        {RD.map((RDval,id)=>{
                             return(
                                 <div className='col-span-6 xl:col-span-2 lg:col-span-6 md:col-span-3 mb-3' key={id}>
-                                    <img src={Defenceval.Defence_Logo} className='w-full xl:w-36 lg:w-36 transition-all duration-300 ease-in-out hover:scale-125'/>
+                                    <img src={RDval.RD_Logo} className='w-full xl:w-36 lg:w-36 transition-all duration-300 ease-in-out hover:scale-125'/>
                                 </div>
                             )
                         })}
