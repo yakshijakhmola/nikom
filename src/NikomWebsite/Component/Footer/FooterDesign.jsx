@@ -80,10 +80,10 @@ const FooterDesign = () => {
                         )
                     })}
                     <div className='flex gap-x-5 mt-5 flex-wrap'>
-                        <a href="https://www.linkedin.com/company/nikom-infrasolutions" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300'><FaLinkedinIn/></a>
-                        <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300'><FaGooglePlusG/></a>
-                        <a href="https://www.facebook.com/NikomInfrasolutionsPvtLtd" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300'><FaFacebookF/></a>
-                        <a href="https://x.com/NikomInfra" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300'><FaXTwitter/></a>
+                        <a href="https://www.linkedin.com/company/nikom-infrasolutions" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300' target='_blank'><FaLinkedinIn/></a>
+                        <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300' target='_blank'><FaGooglePlusG/></a>
+                        <a href="https://www.facebook.com/NikomInfrasolutionsPvtLtd" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300' target='_blank'><FaFacebookF/></a>
+                        <a href="https://x.com/NikomInfra" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300' target='_blank'><FaXTwitter/></a>
                     </div>
                 </div>
             </div>

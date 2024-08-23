@@ -70,18 +70,15 @@ const Leadership = () => {
                 <div className='col-span-12 xl:col-span-7 pl-0 xl:pl-20 mt-5 xl:mt-0'  data-aos="fade-up" data-aos-delay="400">
                     <div>
                         <p className='text-darkred bg-lightred rounded-full py-1 px-5 inline-block'>Vice president</p>
-                        <h2>Arin Sarkar </h2>
+                        <h2>Mr Arin Kumar Sarkar</h2>
                     </div>
                     <div className='mt-2'>
                         <h5>Education & Experience</h5>
                         <ul>
-                            <li className='leadership-li'><p className='pl-8'>B. E.(Mechanical) from IIT Roorkee</p></li>
-                            <li className='leadership-li'><p className='pl-8'>MTech (Energy Studies) from IIT Delhi</p></li>
-                            <li className='leadership-li'><p className='pl-8'>28 Years of Global Experience of Building Relationships</p></li>
-                            <li className='leadership-li'><p className='pl-8'>Founded NIKOM in 2000</p></li>
-                            <li className='leadership-li'><p className='pl-8'>Member of TiE, ISHRAE</p></li>
-                            <li className='leadership-li'><p className='pl-8'>Member of Green Data Centre Alliance</p></li>
-                            <li className='leadership-li'><p className='pl-8'>Passionate about Green  Datacenters and Energy Management Solutions</p></li>
+                            <li className='leadership-li'><p className='pl-8'>LLB from Symbiosis International University Pune | Post-Graduation in Export Management</p></li>
+                            <li className='leadership-li'><p className='pl-8'>30+ Years of Experience in Business Development with Diverse Cultural Insights</p></li>
+                            <li className='leadership-li'><p className='pl-8'>Expertise in Working with 14 Different Nationalities</p></li>
+                            <li className='leadership-li'><p className='pl-8'>Proven Leader in Driving Strategic Growth Initiatives</p></li>
                         </ul>
                     </div>
                 </div>
@@ -93,20 +90,16 @@ const Leadership = () => {
             <div className='grid grid-cols-1 xl:grid-cols-12 w-full place-items-center'>
                 <div className='col-span-12 xl:col-span-7 pr-0 xl:pr-20 mb-5 xl:mb-0' data-aos="fade-up" data-aos-delay="200">
                     <div>
-                        <span className='smallspan'>CTO</span>
-                        <h2>Vinod Sharma</h2>
-                        <p>To foster long-lasting and mutually meaningful partnerships with our customers and business associates by always delivering a credible, ethical, and consistent solution to their business needs.</p>
+                        <span className='smallspan'>Chief Technology Officer (CTO)</span>
+                        <h2>Mr. Vinod Sharma </h2>
                     </div>
                     <div className='mt-2'>
                         <h5>Education & Experience</h5>
                         <ul>
-                            <li className='leadership-li'><p className='pl-8'>B. E.(Mechanical) from IIT Roorkee</p></li>
-                            <li className='leadership-li'><p className='pl-8'>MTech (Energy Studies) from IIT Delhi</p></li>
-                            <li className='leadership-li'><p className='pl-8'>28 Years of Global Experience of Building Relationships</p></li>
-                            <li className='leadership-li'><p className='pl-8'>Founded NIKOM in 2000</p></li>
-                            <li className='leadership-li'><p className='pl-8'>Member of TiE, ISHRAE</p></li>
-                            <li className='leadership-li'><p className='pl-8'>Member of Green Data Centre Alliance</p></li>
-                            <li className='leadership-li'><p className='pl-8'>Passionate about Green  Datacenters and Energy Management Solutions</p></li>
+                            <li className='leadership-li'><p className='pl-8'>BE in Computer Engineering | MBA from FMS Delhi</p></li>
+                            <li className='leadership-li'><p className='pl-8'>30 Years of Global Experience in Building Relationships and Driving Digital Transformation</p></li>
+                            <li className='leadership-li'><p className='pl-8'>Former CEO at TCIL (KSA), Sr. Director at LTI, and Vice President at Coforge</p></li>
+                            <li className='leadership-li'><p className='pl-8'>Passionate Advocate for Green Data Centers and Energy Management Solutions</p></li>
                         </ul>
                     </div>
                 </div>
