@@ -9,6 +9,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+:hover{
+    cursor: pointer;
+}
 html, body {
     overflow-x: hidden;
 }
@@ -215,7 +218,7 @@ img{
         @apply text-slate-50 text-[15px] text-justify leading-6
     }
     .footera{
-        @apply text-[15px] text-slate-50 pb-2 hover:text-darkred block transition-all duration-500 ease-linear hover:tracking-wider
+        @apply text-[15px] text-slate-50 pb-2 hover:text-darkred block transition-all duration-500 ease-linear
     }
     .redbtn{
         @apply text-darkred flex items-center gap-x-3 font-bold

@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const RedLineSlider = () => {
   const settings = {
-    speed: 5000,
+    speed: 9000,
     autoplay: true,
     autoplaySpeed: 0,
     centerMode: true,

@@ -69,15 +69,13 @@ const NavbarDesign = () => {
                     </ul>
                   </div>}
                 </li>
-                <li><a onClick={()=>navigate('/projects')}>Projects</a></li>
+                <li><a onClick={()=>navigate('/career')}>Career</a></li>
                 <li className="menu-item-has-children">
-                  <a onClick={()=>showSubMenu("case-studies")}>Case Studies<i className="fa-solid fa-chevron-down"></i></a>
-                  {activeMenu === "case-studies" && <div className={`menu-subs menu-column-1 ${subMenuActive ? 'active' : ''}`}>
-                  <a onClick={()=>navigate('/case-studies')}><h6 className='text-darkred'>All Case Studies</h6></a>
+                  <a onClick={()=>showSubMenu("projects")}>Projects<i className="fa-solid fa-chevron-down"></i></a>
+                  {activeMenu === "projects" && <div className={`menu-subs menu-column-1 ${subMenuActive ? 'active' : ''}`}>
+                  <a onClick={()=>navigate('/projects')}><h6 className='text-darkred'>Projects</h6></a>
                     <ul>
-                      <li><a onClick={()=>navigate('/casestudiesdetails')}>Case Studies Details1</a></li>
-                      <li><a onClick={()=>navigate('/casestudiesdetails')}>Case Studies Details2</a></li>
-                      <li><a onClick={()=>navigate('/casestudiesdetails')}>Case Studies Details</a></li>
+                      <li><a onClick={()=>navigate('/casestudiesdetails')}>AAI's Non-IT Infrastructure</a></li>
                     </ul>
                   </div>}
                 </li>
@@ -85,33 +83,56 @@ const NavbarDesign = () => {
                   <a onClick={()=>showSubMenu("service")}>Services <i className="fa-solid fa-chevron-down"></i></a>
                   {activeMenu === "service" && <div className={`menu-subs menu-mega menu-column-4 ${subMenuActive ? 'active' : ''}`}>
                   <div className="list-item">
-                  <a onClick={()=>navigate('/service')}><h6 className='text-darkred'>All Services</h6></a>
+                    <span className='font-bold text-darkred'>AV Solutions</span>
                     <ul>
-                      <li><a onClick={()=>navigate('/data-center-consultancy')}>Data Center Consultancy</a></li>
-                      <li><a onClick={()=>navigate('/data-center-design-and-engineering')}>Data Center Design And Engineering</a></li>
+                      <li><a onClick={()=>navigate('/audio-visuals-and-smart-rooms-solutions')}>Audio Visuals / Smart Rooms Solutions</a></li>
+                    </ul>
+                    <span className='font-bold text-darkred'>Facility Management & O&M</span>
+                    <ul>
                       <li><a onClick={()=>navigate('/data-center-project-management')}>Data Center Project Management</a></li>
-                      <li><a onClick={()=>navigate('/data-center-construction')}>Data Center Construction</a></li>
-                    </ul>
-                  </div>
-                  <div className="list-item">
-                    <ul>
-                      <li><a onClick={()=>navigate('/data-center-monitoring-and-control')}>Data Center Monitoring And Control</a></li>
                       <li><a onClick={()=>navigate('/data-center-operations-and-maintenance')}>Data Center Operations And Maintenance</a></li>
-                      <li><a onClick={()=>navigate('/energy-management-solutions')}>Energy Management Solutions</a></li>
-                      <li><a onClick={()=>navigate('/asset-tracking-service')}>Asset Tracking Service</a></li>
                     </ul>
                   </div>
                   <div className="list-item">
+                    <span className='font-bold text-darkred'>Aviation & Defence Solutions</span>
                     <ul>
                       <li><a onClick={()=>navigate('/defence-and-homeland-security')}>Defence And Homeland Securities</a></li>
-                      <li><a onClick={()=>navigate('/information-technology')}>Information Technology</a></li>
-                      <li><a onClick={()=>navigate('/audio-visuals-and-smart-rooms-solutions')}>Audio Visuals / Smart Rooms Solutions</a></li>
+                    </ul>
+                    <span className='font-bold text-darkred'>Safety & Smart City Solutions</span>
+                    <ul>
+                      <li><a onClick={()=>navigate('/energy-management-solutions')}>Energy Management Solutions</a></li>
                       <li><a onClick={()=>navigate('/electronic-government')}>E-government</a></li>
                       <li><a onClick={()=>navigate('/intelligent-transport-management')}>Intelligent Transport Management</a></li>
                     </ul>
                   </div>
                   <div className="list-item">
-                    <img src="img/navbar-image.png" className="responsive" alt="Shop Product" />
+                      <span className='font-bold text-darkred'>IT & Networking Solutions</span>
+                      <ul>
+                        <li><a href="">HCI Hyper Converged Infrastructure</a></li>
+                        <li><a href="">NOC and SOC</a></li>
+                        <li><a href="">Networking</a></li>
+                        <li><a href="">Servers</a></li>
+                        <li><a href="">Backup/Recovery</a></li>
+                        <li><a href="">Cloud Integration</a></li>
+                        <li><a href="">Firewall and UTM systems</a></li>
+                        <li><a href="">Virtualization</a></li>
+                        <li><a href="">High Performance Computing</a></li>
+                        <li><a href="">DC, DR & NDR</a></li>
+                      </ul>
+                      <span className='font-bold text-darkred'>Cyber Security and AI Solutions</span>
+                  </div>
+                  <div className="list-item">
+                    <span className='font-bold text-darkred'>Managing Data Centre Lifecycle</span>
+                    <ul>
+                      <li><a onClick={()=>navigate('/data-center-consultancy')}>Data Center Consultancy</a></li>
+                      <li><a onClick={()=>navigate('/data-center-design-and-engineering')}>Data Center Design And Engineering</a></li>
+                      <li><a onClick={()=>navigate('/data-center-construction')}>Data Center Construction</a></li>
+                      <li><a onClick={()=>navigate('/data-center-monitoring-and-control')}>Data Center Monitoring And Control</a></li>
+                      <li><a href="">Grid to Chip Turnkey EPC Projects</a></li>
+                      <li><a href="">Data Centre Retrofit Projects</a></li>
+                      <li><a href="">Operations command Centre</a></li>
+                    </ul>
+                    <span className='font-bold text-darkred'>Digital Transformation</span>
                   </div>
                 </div>}
                   

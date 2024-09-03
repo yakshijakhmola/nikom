@@ -14,9 +14,9 @@ const Leadership = () => {
                 </div>
                 <div className='col-span-12 xl:col-span-7 pl-0 xl:pl-20 mt-5 xl:mt-0'  data-aos="fade-up" data-aos-delay="400">
                     <div>
-                        <p className='text-darkred bg-lightred rounded-full py-1 px-5 inline-block'>Chairman</p>
                         <h2>Dr. V.K. Garg</h2>
-                        <p>To foster long-lasting and mutually meaningful partnerships with our customers and business associates by always delivering a credible, ethical, and consistent solution to their business needs.</p>
+                        <p className='text-darkred inline-block mt-2'>Chairman</p>
+                        <p className='mt-3'>To foster long-lasting and mutually meaningful partnerships with our customers and business associates by always delivering a credible, ethical, and consistent solution to their business needs.</p>
                     </div>
                     <div className='mt-2'>
                         <h5>Education & Experience</h5>
@@ -38,9 +38,9 @@ const Leadership = () => {
             <div className='grid grid-cols-1 xl:grid-cols-12 w-full place-items-center'>
                 <div className='col-span-12 xl:col-span-7 pr-0 xl:pr-20 mb-5 xl:mb-0' data-aos="fade-up" data-aos-delay="200">
                     <div>
-                        <span className='smallspan'>Managing Director & CEO</span>
                         <h2>Asheesh Garg</h2>
-                        <p>To foster long-lasting and mutually meaningful partnerships with our customers and business associates by always delivering a credible, ethical, and consistent solution to their business needs.</p>
+                        <p className='text-darkred inline-block mt-2'>Managing Director & CEO</p>
+                        <p className='mt-3'>To foster long-lasting and mutually meaningful partnerships with our customers and business associates by always delivering a credible, ethical, and consistent solution to their business needs.</p>
                     </div>
                     <div className='mt-2'>
                         <h5>Education & Experience</h5>
@@ -69,8 +69,8 @@ const Leadership = () => {
                 </div>
                 <div className='col-span-12 xl:col-span-7 pl-0 xl:pl-20 mt-5 xl:mt-0'  data-aos="fade-up" data-aos-delay="400">
                     <div>
-                        <p className='text-darkred bg-lightred rounded-full py-1 px-5 inline-block'>Vice president</p>
                         <h2>Mr Arin Kumar Sarkar</h2>
+                        <p className='text-darkred inline-block mt-2'>Vice president</p>
                     </div>
                     <div className='mt-2'>
                         <h5>Education & Experience</h5>
@@ -90,8 +90,8 @@ const Leadership = () => {
             <div className='grid grid-cols-1 xl:grid-cols-12 w-full place-items-center'>
                 <div className='col-span-12 xl:col-span-7 pr-0 xl:pr-20 mb-5 xl:mb-0' data-aos="fade-up" data-aos-delay="200">
                     <div>
-                        <span className='smallspan'>Chief Technology Officer (CTO)</span>
                         <h2>Mr. Vinod Sharma </h2>
+                        <p className='text-darkred inline-block mt-2'>Chief Technology Officer (CTO)</p>
                     </div>
                     <div className='mt-2'>
                         <h5>Education & Experience</h5>

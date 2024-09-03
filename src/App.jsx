@@ -12,7 +12,6 @@ import CaseStudiesPage from './NikomWebsite/Pages/CaseStudiesPage';
 import PartnersDesign from './NikomWebsite/Component/Partners/PartnersDesign';
 import About from './NikomWebsite/Pages/About';
 import Leadership from './NikomWebsite/Pages/Leadership';
-import OurTeam from './NikomWebsite/Component/Team/OurTeam';
 import Try1 from './NikomWebsite/Pages/Try1';
 import Try2 from './NikomWebsite/Pages/Try2';
 import NavbarDesign from './NikomWebsite/Component/Navbar/NavbarDesign';
@@ -35,6 +34,7 @@ import DataCenterMonitoringAndControl from './NikomWebsite/Pages/ServicesPage/Da
 import ProjectMilestone from './NikomWebsite/Component/Project/ProjectMilestone';
 import AwardandCertificate from './NikomWebsite/Pages/AwardandCertificate';
 import DummyBlog from './NikomWebsite/Pages/DummyBlog';
+import Career from './NikomWebsite/Pages/Career';
 AOS.init();
 
 function Outletext(){
@@ -167,6 +167,10 @@ function App() {
         {
           path: '/blog1',
           element: <DummyBlog/>
+        },
+        {
+          path: '/career',
+          element: <Career/>
         }
       ]
     }
