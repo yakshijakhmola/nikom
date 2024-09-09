@@ -161,7 +161,7 @@ function App() {
           element: <ProjectMilestone/>
         },
         {
-          path: '/awards-and-certificate',
+          path: '/awards-and-recognition',
           element: <AwardandCertificate/>
         },
         {

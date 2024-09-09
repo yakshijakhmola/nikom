@@ -5,7 +5,7 @@ import AwardDesign from '../Component/About/AwardDesign'
 const AwardandCertificate = () => {
   return (
     <>
-      <BreadcrumbDesign pagename={'Awards and Certificate'} pagelink={'awards-and-certificate'}/>
+      <BreadcrumbDesign pagename={'Awards and Recognition'} pagelink={'awards-and-recognition'}/>
       <div className='section'>
         <div className="container">
           <AwardDesign/>

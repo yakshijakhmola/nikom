@@ -81,7 +81,6 @@ const FooterDesign = () => {
                     })}
                     <div className='flex gap-x-5 mt-5 flex-wrap'>
                         <a href="https://www.linkedin.com/company/nikom-infrasolutions" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300' target='_blank'><FaLinkedinIn/></a>
-                        <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300' target='_blank'><FaGooglePlusG/></a>
                         <a href="https://www.facebook.com/NikomInfrasolutionsPvtLtd" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300' target='_blank'><FaFacebookF/></a>
                         <a href="https://x.com/NikomInfra" className='w-10 h-10 rounded-full bg-white text-darkred text-center items-center justify-center flex hover:scale-110 transition-all ease-out duration-300' target='_blank'><FaXTwitter/></a>
                     </div>
@@ -105,7 +104,7 @@ const FooterDesign = () => {
            </div>
         </div>
     </footer>
-    <a href="" className='fixed right-3 bottom-20 z-50'><img src={assets.Whatsapp} className='w-12' alt="whatsapp" /></a>
+    <a href="https://wa.link/s8a18h" className='fixed right-3 bottom-20 z-50'><img src={assets.Whatsapp} className='w-12' alt="whatsapp" /></a>
     </>
   )
 }
