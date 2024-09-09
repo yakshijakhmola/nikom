@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa6";
 import { assets } from '../../../assets/assets';
+import CountUp from 'react-countup';
 
 const AboutDesign = ({Extratext, Showbtn}) => {
     const navigate = useNavigate();
@@ -40,7 +41,7 @@ const AboutDesign = ({Extratext, Showbtn}) => {
                         {AboutData.map((val,ind)=>{
                             return(
                                 <div key={ind} className='col-span-6 xl:col-span-4 lg:col-span-4 mb-4 border-l-[6px] border-solid border-darkred pl-5'>
-                                    <h3 className='text-white'>{val.About_number}</h3>
+                                    <h3 className='text-white'><CountUp start={0} end={val.About_number} duration={5}/></h3>
                                     <span className='text-white-para-color text-parasize'>{val.About_para}</span>
                                 </div>
                             )
@@ -57,4 +58,4 @@ const AboutDesign = ({Extratext, Showbtn}) => {
   )
 }
 
-export default AboutDesign
+export default AboutDesign  
