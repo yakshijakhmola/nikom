@@ -112,7 +112,7 @@ const ServiceCard = () => {
   ]
   return (
     <>
-      <div className='section'>
+      <div className='pt pb'>
         <div className='grid grid-cols-12'>
           {ServiceCardData.map((val,ind)=>{
             return(

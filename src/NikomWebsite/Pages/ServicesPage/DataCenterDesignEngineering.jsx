@@ -8,7 +8,7 @@ const DataCenterDesignEngineering = () => {
   return (
     <>
       <BreadcrumbDesign pagename={'Data Center Design Engineering'} pagelink={'data-center-design-and-engineering'}/>
-      <div className='section'>
+      <div className='pt pb'>
             <div className='container'>
               <div>
                 <img src={assets.DataCenterEngineer} className='rounded-3xl h-92 w-full shadow-dark-shadow'/>  

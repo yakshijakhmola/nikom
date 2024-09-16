@@ -3,7 +3,7 @@ import SideBarBlog from "./SideBarBlog"
 
 const BlogDetails = () => {
   return (
-    <div className='section'>
+    <div className='pt pb'>
         <div className="container">
             <div className="grid grid-cols-12 gap-x-5" data-aos="fade-right" data-aos-duration="1000">
                 <div className='col-span-12 xl:col-span-8 lg:col-span-8'>

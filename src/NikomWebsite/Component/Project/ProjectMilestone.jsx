@@ -73,7 +73,7 @@ const ProjectMilestone = () => {
   return (
     <>
         <BreadcrumbDesign pagename={'Milestones Project'} pagelink={'milestones-project'}/>
-        <div className='section'>
+        <div className='pt pb'>
             <div className="container">
                 <div className="grid grid-cols-12 gap-5">
                     {ProjectMilestoneJson.map((projectval, id)=>{

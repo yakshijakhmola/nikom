@@ -84,7 +84,7 @@ const ContactDesign = () => {
   return (
     <>
         <BreadcrumbDesign pagelink={'Contact'} pagename={'Contact'}/>
-        <div className='section'>
+        <div className='pt pb'>
             <div className='container'>
                 <div className='grid grid-cols-12 xl:grid-cols-12 gap-x-5'>
                     <div className='col-span-12 xl:col-span-5 lg:col-span-5 bg-white shadow-dark-shadow p-5 xl:p-10 lg:p-10 rounded-md' data-aos="fade-right" data-aos-delay="100">

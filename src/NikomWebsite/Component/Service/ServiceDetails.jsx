@@ -16,7 +16,7 @@ const ServiceDetails = ({
     }) => {
   return (
     <>
-        <div className='section'>
+        <div className='pt pb'>
             <div className='container'>
                 <div>
                     <img src={ServiceMainImage} className='rounded-3xl h-92 w-full shadow-dark-shadow' data-aos="fade-down" data-aos-duration="1000"/>  

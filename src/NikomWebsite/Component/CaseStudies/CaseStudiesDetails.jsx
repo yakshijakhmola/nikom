@@ -6,7 +6,7 @@ const CaseStudiesDetails = () => {
     <>
         <BreadcrumbDesign pagelink={"Building Resilience: AAI's Non-IT Infrastructure for DR Site in Hyderabad"} 
         pagename={"Building Resilience: AAI's Non-IT Infrastructure for DR Site in Hyderabad"}/>
-        <div className='section'>
+        <div className='pt pb'>
             <div className='container'>
                 <div>
                     <div>

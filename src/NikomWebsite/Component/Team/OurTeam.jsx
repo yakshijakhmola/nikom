@@ -158,7 +158,7 @@ const OurTeam = () => {
   return (
     <>
         <BreadcrumbDesign pagelink={'Our Team'} pagename={'Our Team'}/>
-        <div className='section'>
+        <div className='pt pb'>
             <div className='container'>
                 <div className='flex items-center justify-center flex-col'>
                     <p className='smallspan'>Team Members</p>

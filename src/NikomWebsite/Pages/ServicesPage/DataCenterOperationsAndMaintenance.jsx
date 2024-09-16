@@ -8,7 +8,7 @@ const EnergyManagementSolutions = () => {
   return (
     <>
       <BreadcrumbDesign pagename={'Data Center Operations & Maintenance'} pagelink={'data-center-operations-and-maintenance'}/>
-      <div className='section'>
+      <div className='pt pb'>
             <div className='container'>
               <div>
                 <img src={assets.DataEngineerMaintenance} className='rounded-tl-md rounded-tr-md'/>  

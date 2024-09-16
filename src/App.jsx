@@ -12,8 +12,6 @@ import CaseStudiesPage from './NikomWebsite/Pages/CaseStudiesPage';
 import PartnersDesign from './NikomWebsite/Component/Partners/PartnersDesign';
 import About from './NikomWebsite/Pages/About';
 import Leadership from './NikomWebsite/Pages/Leadership';
-import Try1 from './NikomWebsite/Pages/Try1';
-import Try2 from './NikomWebsite/Pages/Try2';
 import NavbarDesign from './NikomWebsite/Component/Navbar/NavbarDesign';
 import FooterDesign from './NikomWebsite/Component/Footer/FooterDesign';
 import BlogCardPage from './NikomWebsite/Component/Blog/BlogCardPage';
@@ -89,20 +87,12 @@ function App() {
           element: <Leadership/>
         },
         {
-          path: '/try1',
-          element: <Try1/>
-        },
-        {
           path: '/blogs',
           element: <BlogCardPage/>
         },
         {
           path: '/blogdetails',
           element: <BlogDetails/>
-        },
-        {
-          path: "/service/:name",
-          element: <Try2/>
         },
         {
           path: '/data-center-consultancy',

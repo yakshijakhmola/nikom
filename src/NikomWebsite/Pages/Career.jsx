@@ -9,7 +9,7 @@ const Career = () => {
   return (
     <>
     <BreadcrumbDesign pagelink={'career'} pagename={'Career'}/>
-    <div className='section'>
+    <div className='pt pb'>
         <div className='container'>
             <div className='grid grid-cols-12 xl:grid-cols-12 gap-x-5'>
                 <div className='col-span-12 xl:col-span-7 lg:col-span-7 bg-white shadow-dark-shadow p-5 xl:p-10 lg:p-10 place-items-center rounded-md mt-3 xl:mt-0' data-aos="fade-left" data-aos-delay="200">

@@ -41,13 +41,13 @@ const AboutDesign = ({Extratext, Showbtn}) => {
                         {AboutData.map((val,ind)=>{
                             return(
                                 <div key={ind} className='col-span-6 xl:col-span-4 lg:col-span-4 mb-4 border-l-[6px] border-solid border-darkred pl-5'>
-                                    <h3 className='text-white'><CountUp start={0} end={val.About_number} duration={5}/></h3>
+                                    <h3 className='text-white'><CountUp start={0} end={val.About_number} duration={5} scrollSpyOnce={false} enableScrollSpy redraw/></h3>
                                     <span className='text-white-para-color text-parasize'>{val.About_para}</span>
                                 </div>
                             )
                         })}
                         </div>
-                        <>
+                        <>e
                             {Showbtn?  <a onClick={()=>navigate('/about')} className='dark-btn mt-5'>Read More <FaArrowRight className='circle'/></a>: ""}
                         </>
                     </div>

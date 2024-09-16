@@ -47,7 +47,7 @@ const About = () => {
   return (
     <>
         <BreadcrumbDesign pagelink={'About'} pagename={'About'}/>
-        <div className='section'> 
+        <div className='pt pb'> 
             <div className='container'>
                 <div className="grid  xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-x-5 grid-cols-1 justify-center items-start">
                     <div className='mt-3 xl:mt-0 p-5' data-aos="fade-right" data-aos-delay="100">
@@ -73,7 +73,7 @@ const About = () => {
             </div>
         </div>
         <AboutDesign Extratext={'To foster long-lasting and mutually meaningful partnerships with our customers and business associates by always delivering a credible, ethical, and consistent solution to their business needs.'} Showbtn={false}/>
-        <div className='section'>
+        <div className='pt pb'>
             <div className='container'>
                 <div className='flex items-center justify-center flex-col'>
                     <p className='smallspan'>Delivering Complete</p>

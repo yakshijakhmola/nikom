@@ -4,18 +4,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const RedLineSlider = () => {
-  const settings ={
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    centerMode: true,
-    infinite: true,
-    variableWidth: true,
-    arrows: false,
-    buttons: false,
-  }
-
   const NewsUpdated = [
     {
       id: 1,
@@ -40,17 +28,17 @@ const RedLineSlider = () => {
   ];
 
   return (
-    <div className="bg-darkred py-2 h-9">
-      <Slider {...settings}>
+    <div className="bg-darkred py-2">
+      <div className='animate-marquee flex gap-x-4'>
         {NewsUpdated.map((val) => (
           <div key={val.id} className="">
             <div className="flex items-center pl-4 gap-x-4">
               <img src="./img/brand.svg" className="w-5 invert" alt="Brand Logo" />
-              <p className="parasize text-white text-sm">{val.News_name}</p>
+              <p className="parasize text-white text-sm text-nowrap">{val.News_name}</p>
             </div>
           </div>
         ))}
-      </Slider>
+      </div>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const AwardandCertificate = () => {
   return (
     <>
       <BreadcrumbDesign pagename={'Awards and Recognition'} pagelink={'awards-and-recognition'}/>
-      <div className='section'>
+      <div className='pt pb'>
         <div className="container">
           <AwardDesign/>
         </div>

@@ -18,7 +18,7 @@ const CaseStudies = () => {
   ]
   return (
     <>
-      <div className='section'>
+      <div className='pt pb'>
         <div className='container'>
           <div className='flex items-center justify-center flex-col'>
             <p className='smallspan'>Case Studies</p>
