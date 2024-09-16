@@ -11,8 +11,8 @@ const Career = () => {
     <BreadcrumbDesign pagelink={'career'} pagename={'Career'}/>
     <div className='pt pb'>
         <div className='container'>
-            <div className='grid grid-cols-12 xl:grid-cols-12 gap-x-5'>
-                <div className='col-span-12 xl:col-span-7 lg:col-span-7 bg-white shadow-dark-shadow p-5 xl:p-10 lg:p-10 place-items-center rounded-md mt-3 xl:mt-0' data-aos="fade-left" data-aos-delay="200">
+            <div className='grid grid-cols-12 xl:grid-cols-12 place-items-center'>
+                <div className='col-span-12 xl:col-span-12 lg:col-span-12 bg-white shadow-dark-shadow p-5 xl:p-10 lg:p-10 place-items-center rounded-md mt-3 xl:mt-0' data-aos="fade-left" data-aos-delay="200">
                     <h4 className='mb-3'>Apply Online</h4>
                     <form className='mt-5'>
                         <div className='grid grid-cols-12 gap-x-5'>
@@ -65,9 +65,9 @@ const Career = () => {
                             <div className='col-span-12'>
                                 <label className='text-black font-bold mb-3'>Date of Birth</label>
                                 <div className="grid grid-cols-12 gap-x-5">
-                                    <div className='col-span-12 xl:col-span-4 md:col-span-4'>
+                                    <div className='col-span-4 xl:col-span-4 md:col-span-4'>
                                         <select name="" id="" className='inputdesign'>
-                                            <option value="" selected="">---Month---</option>
+                                            <option value="" selected="">Month</option>
                                             <option value="">January</option>
                                             <option value="">Feburary</option>
                                             <option value="">March</option>
@@ -82,9 +82,9 @@ const Career = () => {
                                             <option value="">December</option>
                                         </select>
                                     </div>
-                                    <div className='col-span-12 xl:col-span-4 md:col-span-4'>
+                                    <div className='col-span-4 xl:col-span-4 md:col-span-4'>
                                         <select name="" id="" className='inputdesign'>
-                                            <option value="" selected="">---Day---</option>
+                                            <option value="" selected="">Day</option>
                                             <option value="">Monday</option>
                                             <option value="">Tuesday</option>
                                             <option value="">Wednesday</option>
@@ -94,9 +94,9 @@ const Career = () => {
                                             <option value="">Sunday</option>
                                         </select>
                                     </div>
-                                    <div className='col-span-12 xl:col-span-4 md:col-span-4'>
+                                    <div className='col-span-4 xl:col-span-4 md:col-span-4'>
                                         <select name="" id="" className='inputdesign'>
-                                            <option value="" selected="">---Year---</option>
+                                            <option value="" selected="">Year</option>
                                             <option value="">Monday</option>
                                             <option value="">Tuesday</option>
                                             <option value="">Wednesday</option>

@@ -249,6 +249,70 @@ const PartnersDesign = () => {
             HealtchCare_Logo: assets.medanta
         }
     ]
+    const Consulting = [
+        {
+            id: 1,
+            Consulting_Logo: assets.Ernst
+        },
+        {
+            id: 2,
+            Consulting_Logo: assets.Pwc
+        },
+        {
+            id: 3,
+            Consulting_Logo: assets.Kpmg
+        }
+    ]
+    const Manufacturing = [
+        {
+            id: 1,
+            Manufacturing_Logo: assets.Rcf
+        },
+        {
+            id: 2,
+            Manufacturing_Logo: assets.Nfl
+        }
+    ]
+    const BFSI = [
+        {
+            id: 1,
+            BFSI_Logo: assets.Metlife
+        },
+        {
+            id: 2,
+            BFSI_Logo: assets.Aviva
+        },
+        {
+            id: 3,
+            BFSI_Logo: assets.Lic
+        },
+        {
+            id: 4,
+            BFSI_Logo: assets.Boi
+        },
+        {
+            id: 5,
+            BFSI_Logo: assets.Icici
+        },
+        {
+            id: 6,
+            BFSI_Logo: assets.Pnb
+        }
+    ]
+    const NGOs = [
+        {
+            id: 1,
+            NGOs_Logo: assets.Oxfam
+        },
+        {
+            id: 2,
+            NGOs_Logo: assets.Michael
+        },
+        {
+            id: 3,
+            NGOs_Logo: assets.Helpageindia
+        }
+    ]
   return (
     <>
         <BreadcrumbDesign pagelink={'Partners'} pagename={'Partners'}/>
@@ -421,6 +485,70 @@ const PartnersDesign = () => {
                             return(
                                 <div className='col-span-6 xl:col-span-2 lg:col-span-6 md:col-span-3 mb-3' key={id}>
                                     <img src={HealtchCareval.HealtchCare_Logo} className='w-full xl:w-36 lg:w-36 transition-all duration-300 ease-in-out hover:scale-125'/>
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className='pt-10 pb-10 flex justify-center items-center h-full'>
+            <div className='container'>
+                <div className='border border-dashed border-darkred rounded-lg p-5 relative'>
+                    <h6 className='absolute -top-3 left-5 bg-darkred text-center text-white px-3 rounded-md'>Consulting Client's</h6>
+                    <div className='grid grid-cols-12'>
+                        {Consulting.map((Consultingval,id)=>{
+                            return(
+                                <div className='col-span-6 xl:col-span-2 lg:col-span-6 md:col-span-3 mb-3' key={id}>
+                                    <img src={Consultingval.Consulting_Logo} className='w-full xl:w-36 lg:w-36 transition-all duration-300 ease-in-out hover:scale-125'/>
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className='pt-10 pb-10 flex justify-center items-center h-full'>
+            <div className='container'>
+                <div className='border border-dashed border-darkred rounded-lg p-5 relative'>
+                    <h6 className='absolute -top-3 left-5 bg-darkred text-center text-white px-3 rounded-md'>Manufacturing Client's</h6>
+                    <div className='grid grid-cols-12'>
+                        {Manufacturing.map((Manufacturingval,id)=>{
+                            return(
+                                <div className='col-span-6 xl:col-span-2 lg:col-span-6 md:col-span-3 mb-3' key={id}>
+                                    <img src={Manufacturingval.Manufacturing_Logo} className='w-full xl:w-36 lg:w-36 transition-all duration-300 ease-in-out hover:scale-125'/>
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className='pt-10 pb-10 flex justify-center items-center h-full'>
+            <div className='container'>
+                <div className='border border-dashed border-darkred rounded-lg p-5 relative'>
+                    <h6 className='absolute -top-3 left-5 bg-darkred text-center text-white px-3 rounded-md'>BFSI Client's</h6>
+                    <div className='grid grid-cols-12'>
+                        {BFSI.map((BFSIval,id)=>{
+                            return(
+                                <div className='col-span-6 xl:col-span-2 lg:col-span-6 md:col-span-3 mb-3' key={id}>
+                                    <img src={BFSIval.BFSI_Logo} className='w-full xl:w-36 lg:w-36 transition-all duration-300 ease-in-out hover:scale-125'/>
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className='pt-10 pb-10 flex justify-center items-center h-full'>
+            <div className='container'>
+                <div className='border border-dashed border-darkred rounded-lg p-5 relative'>
+                    <h6 className='absolute -top-3 left-5 bg-darkred text-center text-white px-3 rounded-md'>NGOs Client's</h6>
+                    <div className='grid grid-cols-12'>
+                        {NGOs.map((NGOsval,id)=>{
+                            return(
+                                <div className='col-span-6 xl:col-span-2 lg:col-span-6 md:col-span-3 mb-3' key={id}>
+                                    <img src={NGOsval.NGOs_Logo} className='w-full xl:w-36 lg:w-36 transition-all duration-300 ease-in-out hover:scale-125'/>
                                 </div>
                             )
                         })}

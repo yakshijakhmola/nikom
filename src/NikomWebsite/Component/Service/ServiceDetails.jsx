@@ -25,7 +25,7 @@ const ServiceDetails = ({
                     <div className='col-span-12 xl:col-span-8 lg:col-span-8'>   
                         <div className=''>
                             <div className='mb-3'>
-                                <h2 className='mb-3'>{ServiceHead}</h2>
+                                <h2 className='mb-3 text-2xl xl:text-4xl'>{ServiceHead}</h2>
                                 {ServicePara.map((valPara,id)=>(
                                     <p key={id} className='mb-3'>{valPara}</p>
                                 ))}

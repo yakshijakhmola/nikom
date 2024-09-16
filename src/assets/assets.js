@@ -94,6 +94,20 @@ import igb from "./clients/igb.webp";
 import apollo from "./clients/apollo.webp";
 import max from "./clients/max-healthcare.webp";
 import medanta from './clients/medanta.webp';
+import Ernst from './clients/ernst-young.webp';
+import Pwc from './clients/pwc.webp';
+import Kpmg from './clients/kpmg.webp';
+import Rcf from './clients/rcf.webp';
+import Nfl from './clients/nfl.webp';
+import Metlife from './clients/metlife.webp';
+import Aviva from './clients/aviva.webp';
+import Lic from './clients/lic.webp';
+import Boi from './clients/boi.webp';
+import Icici from './clients/icici.webp';
+import Pnb from './clients/pnb.webp';
+import Oxfam from './clients/oxfam.webp';
+import Michael from './clients/michael.webp';
+import Helpageindia from './clients/help-age-india.webp';
 
 import Project from './project1.png'
 
@@ -184,7 +198,8 @@ export const assets = {
     defence1, defence2, defence3, defence4,
     education1, education2, education3, education4, education5,
     IMD, CSIR, CDAC, ERNET,
-    igb, apollo,  max, medanta,
+    igb, apollo,  max, medanta, Ernst, Pwc,  Kpmg, Rcf, Nfl,
+    Metlife, Aviva, Lic, Boi, Icici, Pnb, Oxfam, Michael, Helpageindia,
 
     Project,
 

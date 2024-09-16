@@ -168,6 +168,15 @@ img{
     }
 }
 
+@media(max-width: 570px){
+    .pt{
+        @apply pt-8
+    }
+    .pb{
+        @apply pb-8
+    }
+}
+
 .vertical-timeline-element-subtitle{
     background: var(--darkred);
     color: var(--white);

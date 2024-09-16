@@ -38,16 +38,16 @@ const AboutDesign = ({Extratext, Showbtn}) => {
                         <h3 className='text-white xl:text-4xl text-2xl'>Transformative Tech Solutions Provider</h3>
                         <p className='text-white-para-color text-parasize my-5'>Nikom An ISO 9001 Company and Member of IGBC (Indian Green Building Council-CII) has an integrated capability to design and build State-Of-Art World Class Datacenters, Energy Management Solutions{Extratext}</p>
                         <div className='grid grid-cols-12'>
-                        {AboutData.map((val,ind)=>{
-                            return(
-                                <div key={ind} className='col-span-6 xl:col-span-4 lg:col-span-4 mb-4 border-l-[6px] border-solid border-darkred pl-5'>
-                                    <h3 className='text-white'><CountUp start={0} end={val.About_number} duration={5} scrollSpyOnce={false} enableScrollSpy redraw/></h3>
-                                    <span className='text-white-para-color text-parasize'>{val.About_para}</span>
-                                </div>
-                            )
-                        })}
+                            {AboutData.map((val,ind)=>{
+                                return(
+                                    <div key={ind} className='col-span-6 xl:col-span-4 lg:col-span-4 mb-4 border-l-[6px] border-solid border-darkred pl-5'>
+                                        <h3 className='text-white'><CountUp start={0} end={val.About_number} duration={5} scrollSpyOnce={false} enableScrollSpy redraw/></h3>
+                                        <span className='text-white-para-color text-parasize'>{val.About_para}</span>
+                                    </div>
+                                )
+                            })}
                         </div>
-                        <>e
+                        <>
                             {Showbtn?  <a onClick={()=>navigate('/about')} className='dark-btn mt-5'>Read More <FaArrowRight className='circle'/></a>: ""}
                         </>
                     </div>

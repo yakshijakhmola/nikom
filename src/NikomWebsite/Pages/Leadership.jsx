@@ -8,13 +8,13 @@ const Leadership = () => {
     <BreadcrumbDesign pagelink={'Leadership'} pagename={'Leadership'}/>
     <div className='pt bg-[url("./img/left-bg-techno.png")] bg-no-repeat bg-left-top'>
         <div className='container'>
-            <div className='grid grid-cols-12 xl:grid-cols-12 w-full md:gap-x-3'>
+            <div className='grid grid-cols-12 xl:grid-cols-12 w-full md:gap-x-5'>
                 <div className='col-span-12 md:col-span-5 xl:col-span-3 z-10 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full xl:after:bg-darkred after:rotate-1 xl:after:rotate-3 md:after:bg-none after:bg-none' data-aos="fade-down" data-aos-delay="200">
                     <img src={assets.VKGarg} className='' />
                 </div>
-                <div className='col-span-12 md:col-span-7 xl:col-span-9 pl-0 xl:pl-20 mt-5 xl:mt-0'  data-aos="fade-up" data-aos-delay="400">
+                <div className='col-span-12 md:col-span-7 xl:col-span-9 pl-0 xl:pl-20 mt-5 xl:mt-0'  data-aos="fade-up">
                     <div>
-                        <h2>Dr. V.K. Garg</h2>
+                        <h2 className='text-2xl'>Dr. V.K. Garg</h2>
                         <p className='text-darkred inline-block mt-2'>Chairman Nikom InfraSolutions Pvt. Ltd.</p>
                     </div>
                     <div className='mt-2'>
@@ -34,10 +34,10 @@ const Leadership = () => {
     </div>
     <div className='pt bg-[url("./img/right-bg-techno.png")] bg-no-repeat bg-right-top'>
         <div className='container'>
-            <div className='grid grid-cols-12 xl:grid-cols-12 w-full'>
-                <div className='col-span-12 xl:col-span-9 pr-0 xl:pr-20 mt-5 xl:mb-0' data-aos="fade-up" data-aos-delay="200">
+            <div className='grid grid-cols-12 xl:grid-cols-12 w-full md:gap-x-5'>
+                <div className='col-span-12 md:col-span-7 xl:col-span-9 pr-0 xl:pr-20 mt-5 xl:mb-0' data-aos="fade-up">
                     <div>
-                        <h2>Asheesh Garg</h2>
+                        <h2 className='text-2xl'>Asheesh Garg</h2>
                         <p className='text-darkred inline-block mt-2'>Managing Director & CEO Nikom InfraSolutions Pvt. Ltd.</p>
                     </div>
                     <div className='mt-2'>
@@ -53,21 +53,21 @@ const Leadership = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='col-span-12 xl:col-span-3 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full xl:after:bg-darkred after:rotate-1 xl:after:rotate-3 md:after:bg-none after:bg-none' data-aos="fade-down" data-aos-delay="400">
+                <div className='col-span-12 md:col-span-5 xl:col-span-3 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full xl:after:bg-darkred after:rotate-1 xl:after:rotate-3 md:after:bg-none after:bg-none' data-aos="fade-down" data-aos-delay="400">
                     <img src={assets.Asheesh} className='' />
                 </div>
             </div>
         </div>
     </div>
-    <div className='pt pb bg-[url("./img/left-bg-techno.png")] bg-no-repeat bg-left-top'>
+    <div className='pt bg-[url("./img/left-bg-techno.png")] bg-no-repeat bg-left-top'>
         <div className='container'>
-            <div className='grid grid-cols-12 xl:grid-cols-12 w-full'>
-                <div className='col-span-12 xl:col-span-3 z-10 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full xl:after:bg-darkred after:rotate-1 xl:after:rotate-3 md:after:bg-none after:bg-none' data-aos="fade-down" data-aos-delay="200">
+            <div className='grid grid-cols-12 xl:grid-cols-12 w-full md:gap-x-5'>
+                <div className='col-span-12 md:col-span-5 xl:col-span-3 z-10 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full xl:after:bg-darkred after:rotate-1 xl:after:rotate-3 md:after:bg-none after:bg-none' data-aos="fade-down" data-aos-delay="200">
                     <img src={assets.ArinLeader} className='' />
                 </div>
-                <div className='col-span-12 xl:col-span-9 pl-0 xl:pl-20 mt-5 xl:mt-0'  data-aos="fade-up" data-aos-delay="400">
+                <div className='col-span-12 md:col-span-7 xl:col-span-9 pl-0 xl:pl-20 mt-5 xl:mt-0'  data-aos="fade-up">
                     <div>
-                        <h2>Arin Kumar Sarkar</h2>
+                        <h2 className='text-2xl'>Arin Kumar Sarkar</h2>
                         <p className='text-darkred inline-block mt-2'>Vice president Nikom InfraSolutions Pvt. Ltd.</p>
                     </div>
                     <div className='mt-2'>
@@ -83,12 +83,12 @@ const Leadership = () => {
             </div>
         </div>
     </div>
-    <div className='pb bg-[url("./img/right-bg-techno.png")] bg-no-repeat bg-right-top'>
+    <div className='pt pb bg-[url("./img/right-bg-techno.png")] bg-no-repeat bg-right-top'>
         <div className='container'>
-            <div className='grid grid-cols-1 xl:grid-cols-12 w-full'>
-                <div className='col-span-12 xl:col-span-9 pr-0 xl:pr-20 mb-5 xl:mb-0' data-aos="fade-up" data-aos-delay="200">
+            <div className='grid grid-cols-12 xl:grid-cols-12 w-full md:gap-x-5'>
+                <div className='col-span-12 md:col-span-7 xl:col-span-9 pr-0 xl:pr-20 mb-5 xl:mb-0' data-aos="fade-up">
                     <div>
-                        <h2>Vinod Sharma </h2>
+                        <h2 className='text-2xl'>Vinod Sharma </h2>
                         <p className='text-darkred inline-block mt-2'>Chief Technology Officer (CTO) Nikom InfraSolutions Pvt. Ltd.</p>
                     </div>
                     <div className='mt-2'>
@@ -101,7 +101,7 @@ const Leadership = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='col-span-12 xl:col-span-3 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full xl:after:bg-darkred after:rotate-1 xl:after:rotate-3 md:after:bg-none after:bg-none' data-aos="fade-down" data-aos-delay="400">
+                <div className='col-span-12 md:col-span-5 xl:col-span-3 relative after:content-[""] after:absolute after:-z-10 after:top-0 after:left-0 after:w-full after:h-full xl:after:bg-darkred after:rotate-1 xl:after:rotate-3 md:after:bg-none after:bg-none' data-aos="fade-down" data-aos-delay="400">
                     <img src={assets.VinodLeader} className='' />
                 </div>
             </div>
