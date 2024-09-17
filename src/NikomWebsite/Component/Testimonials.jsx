@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { assets } from '../../assets/assets';
 
 const Testimonials = () => {
     const settings = {
@@ -42,29 +43,23 @@ const Testimonials = () => {
         {
           id:1,
           testi_greating: "Greating Consulting!",
-          testi_para: "Nikom An ISO 9001 Company and Member of IGBC (Indian Green Building Council-CII) has an integrated capability to design and build State-Of-Art World className Datacenters, Energy Management Solutions",
-          testi_name: "Nikom Corporate",
-          testi_desti: "CEO, Founder",
-          testi_image: './img/testimonial-image.webp',
-          testi_company_logo: "img/clients/barclays.png"
+          testi_para: "Nikom Infrasolutions Pvt Ltd has provided outstanding support in maintaining our UPS system. Their leadership and expertise have been critical to the success of our Central Square Plaza II project. We look forward to their continued excellent service and partnership.",
+          testi_name: "Hindustan Petroleum Corporation Ltd.",
+          testi_image: assets.hp,
         },
         {
           id:2,
           testi_greating: "Greating Consulting!",
-          testi_para: "Nikom An ISO 9001 Company and Member of IGBC (Indian Green Building Council-CII) has an integrated capability to design and build State-Of-Art World className Datacenters, Energy Management Solutions",
-          testi_name: "Nikom Corporate",
-          testi_desti: "CEO, Founder",
-          testi_image: './img/testimonial-image.webp',
-          testi_company_logo: "img/clients/barclays.png"
+          testi_para: "We are grateful for the exceptional services provided by Nikom Infrasolutions Pvt Ltd. Their professionalism, adept handling of challenging situations, and commitment to quality have surpassed our expectations. In today's business landscape, it's rare to find such reliability and genuine care. We look forward to working with them again.",
+          testi_name: "Pureearth Infrastructure Ltd",
+          testi_image: assets.pureearth,
         },
         {
           id:3,
           testi_greating: "Greating Consulting!",
-          testi_para: "Nikom An ISO 9001 Company and Member of IGBC (Indian Green Building Council-CII) has an integrated capability to design and build State-Of-Art World className Datacenters, Energy Management Solutions",
-          testi_name: "Nikom Corporate",
-          testi_desti: "CEO, Founder",
-          testi_image: './img/testimonial-image.webp',
-          testi_company_logo: "img/clients/barclays.png"
+          testi_para: "Nikom Infrasolutions has consistently demonstrated professionalism, reliability, and technical expertise in maintaining our facility. Their proactive approach and attention to detail have ensured smooth operations. We value our partnership with Nikom and look forward to its continuation.",
+          testi_name: "Indian Institute of Technology Gandhinagar",
+          testi_image: assets.education3,
         }
     ]
   return (
@@ -111,13 +106,12 @@ const Testimonials = () => {
                           <p className='text-white-para-color text-parasize my-5'>{val.testi_para}</p>
                         </div>
                         <div className="flex items-center justify-between flex-wrap">
-                          <div className="flex items-start gap-x-5">
+                          <div className="flex items-center gap-x-5">
                             <div className="bottom-image">
                               <img src={val.testi_image} alt="" className='w-16 h-16 rounded-full'/>
                             </div>
                             <div className="bottom-testimonial-head">
                               <h5 className='text-white mb-1'>{val.testi_name}</h5>
-                              <p className='text-darkred'>{val.testi_desti}</p>
                             </div>
                           </div>
                           <div className="bottom-right">

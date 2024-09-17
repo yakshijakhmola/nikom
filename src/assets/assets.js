@@ -38,6 +38,7 @@ import AudioVisualIcon from './service/audio-visual.svg';
 import ElectricGovernmentIcon from './service/electronic-goverment.svg';
 import TransportManagementIcon from './service/transport-managment.svg';
 
+import pureearth from './clients/pureearth.webp'
 import schneider from './clients/schneider.webp';
 import garr from './clients/gaar.webp';
 import ireo from './clients/ireo.webp';
@@ -188,7 +189,7 @@ export const assets = {
     ElectricGovernmentIcon,
     TransportManagementIcon,
 
-    schneider,  garr, ireo, ijm,  jda,  organosys, cpwd, v3 , jscl,
+    pureearth, schneider,  garr, ireo, ijm,  jda,  organosys, cpwd, v3 , jscl,
     indianrail, dfc, aai, dimts, cris, concor,  
     tataddl, bses, upcl, hprbb, dtl,
     gail, indianoil, hp, bharatpetroleum, ongc, powergrid, ntpc, nhpc,
