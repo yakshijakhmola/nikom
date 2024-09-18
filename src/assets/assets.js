@@ -24,19 +24,13 @@ import DataAudioVisual from './service/audio-visual.webp';
 import DataEGovernment from './service/e-governance.webp';
 import DataTransportManagement from './service/transport-management.webp';
 
-import DataConsultancyIcon from './service/data-center.svg';
-import DataCenterEngineerIcon from './service/engineering.svg'; 
-import DataCenterProjectIcon from './service/project-managment.svg'; 
-import DataCenterConstructionIcon from './service/data-construction.svg';
-import DataCenterControlIcon from './service/control.svg';
-import DataCenterEngineerMaintenanceIcon from './service/maintenance.svg';
-import ManagementSolutionsIcon from './service/managment-solutions.svg';
-import AssetsTrackingIcon from './service/assets-tracking.svg';
-import DefenceHomelandIcon from './service/security.svg';
-import ITNetworkSolutions from './service/technology.svg';
+import ManagingData from './service/lifecycle.svg';
+import ITNetworkSolutions from './service/technology.svg'; 
+import FacilityManagement from './service/facility-managment.svg'; 
+import SafetyandSmartCity from './service/safety.svg';
 import AudioVisualIcon from './service/audio-visual.svg';
-import ElectricGovernmentIcon from './service/electronic-goverment.svg';
-import TransportManagementIcon from './service/transport-managment.svg';
+import AviationDefence from './service/defence.svg';
+import DigitalTransformation from './service/digital.svg';
 
 import pureearth from './clients/pureearth.webp'
 import schneider from './clients/schneider.webp';
@@ -175,19 +169,8 @@ export const assets = {
     DataEGovernment,
     DataTransportManagement,
 
-    DataConsultancyIcon,
-    DataCenterEngineerIcon,
-    DataCenterProjectIcon,
-    DataCenterConstructionIcon,
-    DataCenterControlIcon,
-    DataCenterEngineerMaintenanceIcon,
-    ManagementSolutionsIcon,
-    AssetsTrackingIcon,
-    DefenceHomelandIcon,
-    ITNetworkSolutions,
-    AudioVisualIcon,
-    ElectricGovernmentIcon,
-    TransportManagementIcon,
+    ManagingData, ITNetworkSolutions, FacilityManagement, SafetyandSmartCity,
+    AudioVisualIcon, AviationDefence, DigitalTransformation,
 
     pureearth, schneider,  garr, ireo, ijm,  jda,  organosys, cpwd, v3 , jscl,
     indianrail, dfc, aai, dimts, cris, concor,  

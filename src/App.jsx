@@ -33,6 +33,11 @@ import ProjectMilestone from './NikomWebsite/Component/Project/ProjectMilestone'
 import AwardandCertificate from './NikomWebsite/Pages/AwardandCertificate';
 import DummyBlog from './NikomWebsite/Pages/DummyBlog';
 import Career from './NikomWebsite/Pages/Career';
+import ManagingDataCentreLifecycle from './NikomWebsite/Pages/ServicesPage/ManagingDataCentreLifecycle';
+import FacilityManagementandOandM from './NikomWebsite/Pages/ServicesPage/FacilityManagementandOandM';
+import SafetyandSmartCitySolutions from './NikomWebsite/Pages/ServicesPage/SafetyandSmartCitySolutions';
+import AVSolutions from './NikomWebsite/Pages/ServicesPage/AVSolutions';
+import AviationDefenceSolutions from './NikomWebsite/Pages/ServicesPage/AviationDefenceSolutions';
 AOS.init();
 
 function Outletext(){
@@ -161,6 +166,26 @@ function App() {
         {
           path: '/career',
           element: <Career/>
+        },
+        {
+          path: '/managing-data-centre-lifecycle',
+          element: <ManagingDataCentreLifecycle/>
+        },
+        {
+          path: '/facility-management-and-oandm',
+          element: <FacilityManagementandOandM/>
+        },
+        {
+          path: '/safety-and-smart-city-solutions',
+          element: <SafetyandSmartCitySolutions/>
+        },
+        {
+          path: '/av-solutions',
+          element: <AVSolutions/>
+        },
+        {
+          path: '/aviation-and-defence-solutions',
+          element: <AviationDefenceSolutions/>
         }
       ]
     }

@@ -7,106 +7,58 @@ const ServiceCard = () => {
   const ServiceCardData =[
     {
       id: 1,
-      serice_icon: [assets.DataConsultancyIcon],
-      service_name: "Data Center Consultancy",
+      serice_icon: [assets.ManagingData],
+      service_name: "Managing Data Centre Lifecycle",
       service_para: "Our Data Center Consulting Services has enterprise-wide, comprehensive approach to...",
-      service_link: "/data-center-consultancy",
+      service_link: "/managing-data-centre-lifecycle",
       service_btn: "Read More"
     },
     {
       id: 2,
-      serice_icon: [assets.DataCenterEngineerIcon],
-      service_name: "Data Center Design And Engineering",
+      serice_icon: [assets.ITNetworkSolutions],
+      service_name: "IT & Networking Solutions",
       service_para: "We are full-fledged data center consulting, engineering, & designing experts...",
       service_link: "/data-center-design-and-engineering",
       service_btn: "Read More"
     },
     {
       id: 3,
-      serice_icon: [assets.DataCenterProjectIcon],
-      service_name: "Data Center Project Management",
+      serice_icon: [assets.FacilityManagement],
+      service_name: "Facility Management & O&M",
       service_para: "Over many years we have developed a proven project process to plan, design, and build...",
-      service_link: "/data-center-project-management",
+      service_link: "/facility-management-and-oandm",
       service_btn: "Read More"
     },
     {
       id: 4,
-      serice_icon: [assets.DataCenterConstructionIcon],
-      service_name: "Data Center Construction",
+      serice_icon: [assets.SafetyandSmartCity],
+      service_name: "Safety & Smart City Solutions",
       service_para: "We are infrastructure solutions provider specializing in highly available, scalable, redundant...",
-      service_link: "/data-center-construction",
+      service_link: "/safety-and-smart-city-solutions",
       service_btn: "Read More"
     },
     {
       id: 5,
-      serice_icon: [assets.DataCenterControlIcon],
-      service_name: "Data Center Monitoring And Control",
+      serice_icon: [assets.AudioVisualIcon],
+      service_name: "AV Solutions",
       service_para: "Data Center monitoring and control is a critical element of maintaining maximum availability for...",
-      service_link: "/data-center-monitoring-and-control",
+      service_link: "/av-solutions",
       service_btn: "Read More"
     },
     {
       id: 6,
-      serice_icon: [assets.DataCenterEngineerMaintenanceIcon],
-      service_name: "Data Center Operations And Maintenance",
+      serice_icon: [assets.AviationDefence],
+      service_name: "Aviation & Defence Solutions",
       service_para: "All data center designs are judged by their ability to provide continuous operations for...",
-      service_link: "/data-center-operations-and-maintenance",
+      service_link: "/aviation-and-defence-solutions",
       service_btn: "Read More"
     },
     {
       id: 7,
-      serice_icon: [assets.ManagementSolutionsIcon],
-      service_name: "Energy Management Solutions",
+      serice_icon: [assets.DigitalTransformation],
+      service_name: "Digital Transformation",
       service_para: "As your IT infrastructure adds more IT assets, it is hard to manually add new ones and...",
       service_link: "/energy-management-solutions",
-      service_btn: "Read More"
-    },
-    {
-      id: 8,
-      serice_icon: [assets.AssetsTrackingIcon],
-      service_name: "Asset Tracking Service",
-      service_para: "Nikom is a leading supplier and integrator of data centre, networking, enterprise secure...",
-      service_link: "/asset-tracking-service",
-      service_btn: "Read More"
-    },
-    {
-      id: 9,
-      serice_icon: [assets.DefenceHomelandIcon],
-      service_name: "Defence And Homeland Securities",
-      service_para: "Defence and Homeland security is a focus and niche area at Nikom for Consulting...",
-      service_link: "/defence-and-homeland-security",
-      service_btn: "Read More"
-    },
-    {
-      id: 10,
-      serice_icon: [assets.ITNetworkSolutions],
-      service_name: "Information Technology",
-      service_para: "Nikom is a leading supplier and integrator of data centre, networking...",
-      service_link: "/information-technology",
-      service_btn: "Read More"
-    },
-    {
-      id: 11,
-      serice_icon: [assets.AudioVisualIcon],
-      service_name: "Audio Visuals / Smart Rooms Solutions",
-      service_para: "Our objective is to help customers achieve the Perfect Meeting, thereby...",
-      service_link: "/audio-visuals-and-smart-rooms-solutions",
-      service_btn: "Read More"
-    },
-    {
-      id: 12,
-      serice_icon: [assets.ElectricGovernmentIcon],
-      service_name: "E-government",
-      service_para: "Electronic government (or e-government) essentially refers to...",
-      service_link: "/electronic-government",
-      service_btn: "Read More"
-    },
-    {
-      id: 13,
-      serice_icon: [assets.TransportManagementIcon],
-      service_name: "Intelligent Transport Management",
-      service_para: "Intelligent transportation systems (ITS) are advanced applications which...",
-      service_link: "/intelligent-transport-management",
       service_btn: "Read More"
     }
   ]

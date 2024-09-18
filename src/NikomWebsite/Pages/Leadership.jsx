@@ -38,7 +38,7 @@ const Leadership = () => {
                 <div className='col-span-12 md:col-span-7 xl:col-span-9 pr-0 xl:pr-20 mt-5 xl:mb-0' data-aos="fade-up">
                     <div>
                         <h2 className='text-2xl'>Asheesh Garg</h2>
-                        <p className='text-darkred inline-block mt-2'>Managing Director & CEO Nikom InfraSolutions Pvt. Ltd.</p>
+                        <p className='text-darkred inline-block mt-2'>MD & CEO at Nikom InfraSolutions Pvt. Ltd.</p>
                     </div>
                     <div className='mt-2'>
                         <h5>Education & Experience</h5>
